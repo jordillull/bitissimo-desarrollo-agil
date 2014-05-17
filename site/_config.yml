@@ -1,0 +1,11 @@
+name: Bitissimo
+author: Hugo Chinchilla
+markdown: redcarpet
+highlighter: pygments
+baseurl:
+description:
+github: http://www.github.com/habitissimo
+twitter: http://www.twitter.com/habitissimo
+facebook: http://www.facebook.com/habitissimo.es
+email: developers@habitissimo.com
+#disqus: diqus-username
