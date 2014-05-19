@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Herramientas de desarrollo ágil</title>
+
+		<meta name="author" content="Jordi Llull, Lluis Ballester, Hugo Chinchilla">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="assets/style.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+			<!--
+				<section>
+					<pre><code data-trim contenteditable>
+function linkify( selector ) {
+  if( supports3DTransforms ) {
+
+    var nodes = document.querySelectorAll( selector );
+
+    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+      var node = nodes[i];
+
+      if( !node.className ) {
+        node.className += ' roll';
+      }
+    }
+  }
+}
+					</code></pre>
+				</section>
+				-->
+
+				<section>
+					<h1>Herramientas de desarrollo ágil</h1>
+				</section>
+
+				<section>
+					<h1>Scrum</h1>
+					<h3>fancy scrum description goes here</h3>
+				</section>
+
+				<section>
+					<h1>Service architecture</h1>
+					<h3>fancy talk here</h3>
+
+					<p>I would mention something about <a href="http://en.wikipedia.org/wiki/SOLID">SOLID</a></p>
+					<ul>
+						<li class="fragment" ><strong>S</strong>ingle responsability principle</li>
+						<li class="fragment" ><strong>O</strong>pen/closed principle</li>
+						<li class="fragment" ><strong>L</strong>iskov substitution principle</li>
+						<li class="fragment" ><strong>I</strong>nterface segregation principle</li>
+						<li class="fragment" ><strong>D</strong>ependency inversion principle</li>
+					</ul>
+				</section>
+
+				<section data-state="git">
+					<!-- GIT -->
+					<img src="assets/img/git-color.png" height="300" class="noborder" />
+					<h3 class="fragment">La herramienta imprescindible</h3>
+				</section>
+
+				<section data-state="git">
+					<h2>Sistema de control de<br/> versiones <span class="fragment">DISTRIBUIDO</span></h2>
+					<ul>
+						<li class="fragment">Cada desarrollador tiene una copia completa del repositosio</li>
+						<li class="fragment">Puedes trabajar offline</li>
+						<li class="fragment">Ridiculamente rápido</li>
+						<li class="fragment">Sabe resolver conflictos mejor que tu</li>
+					</ul>
+				</section>
+
+				<section data-state="git">
+					<h2>Git es sencillo</h2>
+					<h3 class="fragment">a pesar de las apariencias</h3>
+				</section>
+
+				<section data-state="git">
+					<h3>Puedes aprender lo básico en 15 minutos</h3>
+					<iframe src="https://try.github.io/" width="100%" height="400"></iframe>
+				</section>
+
+				<section data-state="git">
+					<h3>¿Que hace diferente a Git?</h3>
+					<ul>
+						<li class="fragment">Diferentes workflows para diferentes necesidades</li>
+						<li class="fragment">Tener muchas ramas es "barato"</li>
+						<li class="fragment"><code>git stash</code></li>
+						<li class="fragment"><code>git blame</code></li>
+						<li class="fragment"><code>git bisect</code></li>
+					</ul>
+				</section>
+
+				<section data-state="git">
+					<h1>Usa git para<br/><small><strike>casi</strike></small><br/>todo</h1>
+
+					<ul>
+						<li class="fragment">Documentación</li>
+						<li class="fragment">Requerimientos</li>
+						<li class="fragment">Archivos de configuración</li>
+						<li class="fragment">Incluso imágenes y sonidos</li>
+						<li class="fragment">Código (por supuesto)</li>
+					</ul>
+				</section>
+
+				<section data-state="git">
+					<h2>Porque git elimina los problemas de comunicación</h2>
+					<ul>
+						<li class="fragment">¿Alguien ha cambiado el documento de requerimientos?</li>
+						<li class="fragment">¿Esto siempre ha estado asi?</li>
+						<li class="fragment">¿Quien ha roto esto?</li>
+					</ul>
+					<p class="fragment">Git nos permite que cada cambio quede registrado y firmado</p>
+				</section>
+
+				<section data-state="git">
+					<h1>Caso práctico</h1>
+					<p>Cómo Habitissimo hace uso de Git</p>
+				</section>
+
+				<section data-state="git">
+					<h2>2 ramas principales</h2>
+					<dl>
+						<dt>master:</dt> <dd>siempre estable</dd>
+						<dt>develop:</dt> <dd>se cree estable, pero no ha sido probado en producción</dd>
+					</dl>
+				</section>
+
+				<section data-state="git">
+					<h2>1 rama de Sprint</h2>
+					<aside class="notes">
+						<p>Por cada sprint creamos una rama donde todos vamos añadiendo bloques de trabajo.</p>
+						<p>Estos bloques son unidades completas que procuran no romper nada para no entorpecer al equipo</p>
+					</aside>
+				</section>
+
+				<section data-state="git">
+					<h2>&infin; ramas de desarrollo</h2>
+					<aside class="notes">
+						<p>Por cada ticket que resolvemos creamos una rama.</p>
+						<p>Esto permite que cualquier miembro del equipo pueda acceder a los cambios de forma
+						aislada, previsualizar los cambios y hacer los suyos propios.</p>
+					</aside>
+				</section>
+
+				<section data-state="vagrant">
+					<img src="assets/img/vagrant.logo.png" height="300" class="noborder" />
+				</section>
+
+				<section data-state="vagrant">
+					<h1>Entornos portables</h1>
+					<p>Vagrant permite que el esfuerzo de instalar y poner a punto un entorno de trabajo sea una tarea replicable.</p>
+				</section>
+
+				<section data-state="vagrant">
+					<p>Inicialmente era un wrapper para VirtualBox</p>
+					<p>Actualmente soporta multiples "proveedores"</p>
+					<ul class="fragment">
+						<li>VirtualBox</li>
+						<li>VMware</li>
+						<li>Hyper-V (solo windows)</li>
+					</ul>
+				</section>
+
+				<section data-state="vagrant">
+					<pre><code data-trim contenteditable>
+$ vagrant init precise64
+$ vagrant up
+$ vagrant ssh
+					</code></pre>
+
+					<p>Acabamos de crear una máquina virtual usando Ubuntu precise 64bits.</p>
+					<p>Una vez hayamos configurado la máquina podemos compartirla con nuestros compañeros.</p>
+				</section>
+
+
+				<section data-state="vagrant">
+					<h1>Pero no es muy portable</h1>
+					<p>Y los detalles de configuración no son nada visibles.</p>
+				</section>
+
+				<section data-state="vagrant">
+					<h1>Vagrantfile</h1>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme || 'solarized', // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

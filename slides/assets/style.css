@@ -1,0 +1,65 @@
+.reveal section h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.reveal section h3 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.reveal section img.noborder {
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+}
+.reveal section ul {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.reveal dl {
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+.reveal dl dt {
+  display: block;
+  font-weight: bold;
+  float: left;
+  clear: left;
+  width: 22%;
+  margin-right: 3%;
+  text-align: right;
+}
+.reveal dl dd {
+  display: block;
+  float: left;
+  clear: right;
+  width: 75%;
+  text-align: left;
+}
+.reveal p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.reveal p.left {
+  text-align: left;
+}
+
+
+section.vagrant {
+  background: red;
+  color: white;
+}
+
+.git .reveal .state-background {
+  background: rgb(108, 193, 250);
+}
+
+.vagrant .reveal {
+  color: #fff;
+}
+.vagrant .reveal .state-background {
+  background: rgb(108, 193, 250);
+}
+
+
+

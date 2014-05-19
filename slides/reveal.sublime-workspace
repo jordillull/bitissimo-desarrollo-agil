@@ -1,0 +1,1972 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"super",
+				"supervisor"
+			],
+			[
+				"refo",
+				"reformamadrid"
+			],
+			[
+				"pin",
+				"pintormadrid"
+			],
+			[
+				"pint",
+				"pintorbarcelona"
+			],
+			[
+				"filter",
+				"filter_lines"
+			],
+			[
+				"BAD",
+				"BAD_RANGES"
+			],
+			[
+				"in",
+				"infile"
+			],
+			[
+				"getRespo",
+				"getResponseForGenericUploadFailure"
+			],
+			[
+				"colu",
+				"columnDiff"
+			],
+			[
+				"Dis",
+				"DismissSurvey"
+			],
+			[
+				"create",
+				"created_at"
+			],
+			[
+				"Net",
+				"NetPromoterSurveyInvalidAction"
+			],
+			[
+				"us",
+				"user_id"
+			],
+			[
+				"net",
+				"net_survey_url"
+			],
+			[
+				"is_int",
+				"is_int"
+			],
+			[
+				"show",
+				"show_survey"
+			],
+			[
+				"sati",
+				"satisfaction-popover"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"user",
+				"user-poll"
+			],
+			[
+				"busines",
+				"business_locations"
+			],
+			[
+				"bus",
+				"business_locations"
+			],
+			[
+				"getBus",
+				"getBusinessChoices"
+			],
+			[
+				"getUser",
+				"getUserType"
+			],
+			[
+				"retr",
+				"retrieveByUserId"
+			],
+			[
+				"subca",
+				"subcategory_id"
+			],
+			[
+				"tab",
+				"table_map"
+			],
+			[
+				"id",
+				"id_length"
+			],
+			[
+				"STATUS",
+				"STATUS_ACTIVE"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"config",
+				"configureFileUploaders"
+			],
+			[
+				"co",
+				"country"
+			],
+			[
+				"bran",
+				"brand_pager"
+			],
+			[
+				"NO",
+				"NORMALIZED_NAME"
+			],
+			[
+				"OB",
+				"OBJECT_ID"
+			],
+			[
+				"OBJEC",
+				"OBJECT_TYPE"
+			],
+			[
+				"catal",
+				"catalogue"
+			],
+			[
+				"catalo",
+				"catalogues"
+			],
+			[
+				"ret",
+				"retrieveByUserId"
+			],
+			[
+				"brand",
+				"brandTags"
+			],
+			[
+				"thum",
+				"thumbnail_name"
+			],
+			[
+				"curr",
+				"current_extension"
+			],
+			[
+				"mongo",
+				"mongoConfig"
+			],
+			[
+				"normal",
+				"normalized_name"
+			],
+			[
+				"NOR",
+				"normalized_name"
+			],
+			[
+				"NORMA",
+				"NORMALIZED_NAME"
+			],
+			[
+				"slu",
+				"slugify"
+			],
+			[
+				"unique",
+				"uniqueSlug"
+			],
+			[
+				"is",
+				"is_blacklisted"
+			],
+			[
+				"la",
+				"latest_slug"
+			],
+			[
+				"log",
+				"log_parts"
+			],
+			[
+				"mon",
+				"mongoConfig"
+			],
+			[
+				"norma",
+				"normalized_name"
+			],
+			[
+				"str",
+				"strrpos"
+			],
+			[
+				"album",
+				"album_image_jack"
+			],
+			[
+				"t",
+				"throw	Throw Exception"
+			],
+			[
+				"CONNE",
+				"CONNECTION_WRITE"
+			],
+			[
+				"time",
+				"time_left"
+			],
+			[
+				"force",
+				"forced_until_time"
+			],
+			[
+				"ie",
+				"ietest"
+			],
+			[
+				"S",
+				"STORAGE_LOCAL  (constant)"
+			],
+			[
+				"ST",
+				"STORAGE_TEMP  (constant)"
+			],
+			[
+				"ori",
+				"original_path"
+			],
+			[
+				"ORI",
+				"original_path"
+			],
+			[
+				"HabUserP",
+				"HabUserProfileBusinessPeer"
+			],
+			[
+				"send",
+				"send_mail"
+			],
+			[
+				"getPa",
+				"getPaymentType"
+			],
+			[
+				"retrieve",
+				"retrieveByPK"
+			],
+			[
+				"is_in",
+				"is_int"
+			],
+			[
+				"payme",
+				"payment_type"
+			],
+			[
+				"inv",
+				"invoice_number"
+			],
+			[
+				"parse",
+				"parsedPhone"
+			],
+			[
+				"sym",
+				"symfony_path"
+			],
+			[
+				"se",
+				"set_symlink_to_apps"
+			],
+			[
+				"ex",
+				"extract_javascript"
+			],
+			[
+				"extra",
+				"extract_php"
+			],
+			[
+				"quo",
+				"quotation"
+			],
+			[
+				"fix_per",
+				"fix_perms"
+			],
+			[
+				"con",
+				"contentType"
+			],
+			[
+				"getIma",
+				"getImageFromGridFS"
+			],
+			[
+				"createF",
+				"createFileSrv"
+			],
+			[
+				"rand",
+				"randString"
+			],
+			[
+				"au",
+				"autoGenerateQuotationName"
+			],
+			[
+				"en",
+				"environment"
+			],
+			[
+				"remove",
+				"removeFromLocal"
+			],
+			[
+				"remo",
+				"removeFromLocal"
+			],
+			[
+				"getHabBra",
+				"getHabBrandExtra"
+			],
+			[
+				"getAbs",
+				"getAbsoluteUrl"
+			],
+			[
+				"alwa",
+				"always_return"
+			],
+			[
+				"repla",
+				"replacePairs"
+			],
+			[
+				"cle",
+				"clear_cache"
+			],
+			[
+				"rol",
+				"roledefs"
+			],
+			[
+				"pa",
+				"parallel"
+			],
+			[
+				"parse_",
+				"parse_url"
+			],
+			[
+				"use",
+				"used_url"
+			],
+			[
+				"goo",
+				"good_url"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"s3_",
+				"s3_bucket"
+			],
+			[
+				"stat",
+				"static_domain"
+			],
+			[
+				"deve",
+				"devel_conf"
+			],
+			[
+				"CON",
+				"config_file"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"install_",
+				"install_maestro"
+			],
+			[
+				"mini",
+				"miniatures"
+			],
+			[
+				"off",
+				"offsetExists"
+			],
+			[
+				"app",
+				"app_name"
+			],
+			[
+				"obje",
+				"objectToArray"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"service",
+				"service_params"
+			],
+			[
+				"ima",
+				"image_id"
+			],
+			[
+				"ent",
+				"entity_class"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"error",
+				"error_msg"
+			],
+			[
+				"erro",
+				"error_msg"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"album_",
+				"album_jack"
+			],
+			[
+				"pos",
+				"postParameters"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"execute",
+				"executeGetUserAlbums"
+			],
+			[
+				"class",
+				"classname"
+			],
+			[
+				"al",
+				"albums"
+			],
+			[
+				"forwa",
+				"forward404Unless"
+			],
+			[
+				"_se",
+				"_setPopupDelegates"
+			],
+			[
+				"cre",
+				"credentials"
+			],
+			[
+				"Miss",
+				"MissingContractException"
+			],
+			[
+				"creat",
+				"create_album"
+			],
+			[
+				"hab",
+				"hab_files"
+			],
+			[
+				"crea",
+				"created_albums"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5997,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/style.css",
+			"settings":
+			{
+				"buffer_size": 66,
+				"line_ending": "Unix",
+				"name": "style.css"
+			}
+		},
+		{
+			"file": "css/reveal.css",
+			"settings":
+			{
+				"buffer_size": 56328,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 79.0,
+		"selected_items":
+		[
+			[
+				"syn bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syn ng",
+				"Set Syntax: nginx"
+			],
+			[
+				"syn ngn",
+				"Set Syntax: nginx"
+			],
+			[
+				"syn n",
+				"Set Syntax: nginx"
+			],
+			[
+				"syn ini",
+				"Set Syntax: INI"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"syn bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"blime",
+				"SublimeGit: Documentation"
+			],
+			[
+				"syn js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"codein",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"sublimecode",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"bla",
+				"Git: Blame"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"git log",
+				"Git: Log"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"syn python",
+				"Set Syntax: Python"
+			],
+			[
+				"syn ",
+				"Set Syntax: Python"
+			],
+			[
+				"syn jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"log",
+				"Git: Log"
+			],
+			[
+				"syn sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"install packa",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublime code",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"enable pl",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabn",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"sublimec",
+				"SublimeCodeIntel: Enable Live Autocompletion"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"syn ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"git show",
+				"Git: Show"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"git bla",
+				"Set Syntax: SublimeGit Blame"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"syn py",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set",
+				"Set Syntax: PHP"
+			],
+			[
+				"reset",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"codeintel",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"syn ngin",
+				"Set Syntax: nginx"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax ini",
+				"Set Syntax: INI"
+			],
+			[
+				"synta bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syntax bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syntax bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"REMOVE",
+				"Package Control: Remove Package"
+			],
+			[
+				"DISA",
+				"Package Control: Disable Package"
+			],
+			[
+				"DISABLE",
+				"SublimeCodeIntel: Disable Live Autocompletion"
+			],
+			[
+				"remove packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"phpc",
+				"PHP Code Sniffer: Turn Execute On Save Off"
+			],
+			[
+				"phpcs",
+				"PHP Code Sniffer: Turn Execute On Save On"
+			],
+			[
+				"syntax less",
+				"Set Syntax: LESS"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ctags",
+				"CTags: Show Symbols (all)"
+			],
+			[
+				"cta",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"set syn p",
+				"Set Syntax: PHP"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"sour",
+				"SourceTree: Open SourceTree"
+			]
+		],
+		"width": 633.0
+	},
+	"console":
+	{
+		"height": 753.0,
+		"history":
+		[
+			"from cStringIO import *",
+			"reload"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/hchinchilla/projects/Vagrantfiles/TODO.md",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/templates/backup-database.sh",
+		"/home/hchinchilla/projects/Vagrantfiles/pillar/roots/habitissimo/test.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/pillar/roots/habitissimo/new.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/Makefile",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/parts/git-repo.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/certificates/latam/gd_bundle-g2.crt",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/cron.d/habitissimo_ar",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/archive.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/cron.d/habitissimo_es",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/cron.d/habitissimo_mx",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/cron.d/habitissimo_br",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/nginx/templates/htpasswd",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/templates/backup-archive.sh",
+		"/home/hchinchilla/projects/Vagrantfiles/pillar/roots/office/bind9/init.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/pillar/roots/docker/test.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/templates/not-deployed-vhost.conf",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/nginx/templates/sites-available/load-balancer.jinja",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/web.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/nginx/lb.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/crons.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/workers.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/parts/db-archive.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/templates/pt-archive.sh",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/templates/profile.jinja",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/parts/db-app.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/office/backups-remote/templates/daily-backup.sh",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/parts/deploy.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/dockers/gitlab/create.sh",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/munin-node/custom-plugins.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/doc/01-RUNNING-SALT.md",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/parts/envs.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/php/templates/www.conf",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/php/phpsh.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/beanstalkd/init.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/munin-node/plugins/beanstalkd",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/beanstalkd/templates/beanstalkd",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/office/bind9/init.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/php/templates/fpm.ini",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/nginx/templates/fastcgi_params",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/python/fabric.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/pillar/roots/top.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/office/pre/templates/update-databases.py",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/php/templates/opcache.ini",
+		"/home/hchinchilla/projects/Vagrantfiles/pillar/roots/docker/prod.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/vagrantfiles/nat.yml",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/nfs/templates/exports",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/cron.d/app_maint",
+		"/home/hchinchilla/projects/Vagrantfiles/REFACTORING",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/cron.d/sync-crm",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/cron.d/bck_maint",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/cron.d/ark_maint",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/nfs/client.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/certificates/latam/certificate.crt",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/certificates/latam/certificate.bundle.crt",
+		"/home/hchinchilla/projects/Vagrantfiles/SERVER NOTES",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/users/templates/gitconfig.jinja",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/munin-node/plugins/nginx_response_time_",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/nginx/templates/static_routes",
+		"/home/hchinchilla/projects/Vagrantfiles/pillar/roots/office/network/glande.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/.gitignore",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/mariadb/templates/conf.d/replication.cnf",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/php/fpm.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/doc/WISHLIST",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/parts/system-user.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/parts/backup-dirs.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/nginx/templates/conf.d/upstreams.jinja",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/munin-master/templates/20-test-limits.conf",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/office/backups-remote/templates/download-backups.sh",
+		"/home/hchinchilla/projects/Vagrantfiles/doc/AWS.md",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/php/php-extensions.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/parts/cc.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/cron.d/mail_maint",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/minion-standalone",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/php/templates/cli.ini",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/iptables/templates/firewall",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/logstash/templates/nginx-vhost.conf",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/memcache/templates/memcached.conf",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/munin-master/templates/nginx-vhost.conf",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/nginx/templates/nginx.conf",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/lib.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/essentials/locales.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/mariadb/service.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/top.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/office/pre/init.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/exim/templates/update-exim4.conf.conf",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/mariadb/users.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/mariadb/mariadb-repo.sls",
+		"/home/hchinchilla/projects/habitissimo/tools/dns/habitissimo.cl.zone",
+		"/home/hchinchilla/projects/habitissimo/tools/dns/habitissimo.com.zone",
+		"/home/hchinchilla/projects/Vagrantfiles/pillar/roots/habitissimo/prod.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/pillar/roots/habitissimo/dev.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/master/Dockerfile",
+		"/home/hchinchilla/projects/Vagrantfiles/pillar/roots/office/network/lakitu.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/templates/archive_schema.sql",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/exim/templates/aliases",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/habitissimo/backup.sls",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/office/bind9/templates/db.developer",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/mariadb/templates/purge-binlogs.cron",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/munin-node/plugin-conf.d/senderscore.conf",
+		"/home/hchinchilla/projects/Vagrantfiles/salt/roots/gitlab/init.sls",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/mx.conf",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/dev.conf",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/parts/habitissimo.conf",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/parts/common.conf",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/es.conf",
+		"/home/hchinchilla/projects/habitissimo/lib/HabApplicationConfiguration.class.php",
+		"/home/hchinchilla/projects/habitissimo/Makefile",
+		"/home/hchinchilla/projects/habitissimo/lib/form/HabAttachmentsForm.class.php",
+		"/home/hchinchilla/projects/habitissimo/lib/model/HabBrand.php",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/habitissimo.conf",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/ar.conf",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/tr.conf",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/it.conf",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/co.conf",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/cl.conf",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/br.conf",
+		"/home/hchinchilla/projects/habitissimo/docs/develop2vagrant.txt",
+		"/home/hchinchilla/projects/habitissimo/tools/fabric/deploy/deploy.py",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/common.conf",
+		"/home/hchinchilla/projects/habitissimo/config/external/nginx/habitissimo_api.conf",
+		"/home/hchinchilla/projects/habitissimo/tools/fabric/deploy/tasks.py",
+		"/home/hchinchilla/projects/habitissimo/tools/oldfabric/deploy.py",
+		"/home/hchinchilla/projects/habitissimo/data/html/header/desk-es.html",
+		"/home/hchinchilla/projects/habitissimo/config/databases.yml",
+		"/home/hchinchilla/projects/habitissimo/test/functional/api/tagActionsTest.php",
+		"/home/hchinchilla/projects/habitissimo/data/prueba_lean/i18n/textos.php",
+		"/home/hchinchilla/projects/habitissimo/docs/mysql-replication"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"-.git/*,-web/components/*,-web/static/build/*,-cache/*,-log/*,-data/*",
+			"-components/-web/static/build,-i18n",
+			"-components/-web/static/build",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"img",
+			".test",
+			"refresh",
+			"ssl",
+			"nginx",
+			"grains",
+			"siteconf",
+			"site.",
+			"ARCHIVE",
+			" }}",
+			"countr",
+			"site",
+			"{{ country }}",
+			"habitissimo:sites",
+			"'role'",
+			"{{ country }}",
+			"site.repo",
+			"-%}",
+			"vhos",
+			"country_caps",
+			"site",
+			"fix_pa",
+			"conf",
+			"sphinx",
+			"pshinx",
+			"sudoe",
+			"curren",
+			"branc",
+			"sendersc",
+			"include",
+			"includ",
+			"symfony_path",
+			"config/external/nginx/common.conf",
+			"config/external/nginx/habitissimo.conf",
+			"_gb",
+			"include",
+			"url:\\s+/\\s*$",
+			"help",
+			"/usuario/registrado",
+			"signUpBusiness2",
+			"registar/negocio",
+			"/registar/negocio",
+			"usuario/registar",
+			"signup",
+			"roll",
+			"header",
+			"action",
+			"quotation_added",
+			"koopa",
+			"toad",
+			"peach",
+			"_CL",
+			"chmod",
+			">>>>",
+			"mini_e",
+			"extra",
+			"merge_messa",
+			"merge_messages",
+			"user_verify_upload_image_file",
+			"UploadFile",
+			"processUploadAndGetResponse",
+			"doUploadFile",
+			"doUpload",
+			"processUploadAn",
+			"attach",
+			"doUploadFile",
+			"processUploadAndGetResponse",
+			"call",
+			"call new",
+			"self::doU",
+			"doUploadFile",
+			"getFileIn",
+			"getFileInfo",
+			"album",
+			"try",
+			"doUploa",
+			"hab_net_promoter_survey",
+			"notnull",
+			"null",
+			"unsigned",
+			"name=\"hab_user\"",
+			"e=\"hab_user\"",
+			"hab_user",
+			"hab_net_promoter_survey",
+			"hab_user",
+			">>>>",
+			"<<<",
+			"dismiss",
+			"continue",
+			"tail",
+			"renderText",
+			"isAu",
+			"dismiss",
+			"score",
+			"netpro",
+			"ipercep",
+			"4q",
+			"green",
+			"generated_name",
+			"getName",
+			"youtu",
+			"alert",
+			"crm",
+			"self",
+			"logError",
+			"debugg",
+			"log",
+			"getLogge",
+			"report",
+			"getlogger",
+			"log",
+			"smsl",
+			"log",
+			"msgId",
+			"Smslo",
+			"error",
+			"debug",
+			"sms",
+			"log",
+			"notify",
+			"notifyE",
+			"notify",
+			"error",
+			"Log::",
+			"notify",
+			"this nee",
+			"json",
+			"backend"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"{{ domain.shortname }}",
+			"{{ site }}",
+			"siteconf.repo",
+			"country_code",
+			"config/external/nginx/parts/common.conf",
+			"config/external/nginx/parts/habitissimo.conf",
+			"_TR",
+			"getTitle",
+			"ARCHIVE",
+			"_IT",
+			"_BR",
+			"_AR",
+			"Catalogue",
+			"images",
+			"# access_log",
+			".com.ar",
+			".com.br",
+			".cl",
+			".com.co",
+			".es",
+			".it",
+			".mx",
+			".hugo",
+			".dev",
+			".devel",
+			"Propel::getConnection(null, Propel::CONNECTION_READ)",
+			"function",
+			"final funcion",
+			"",
+			"local_content",
+			"$tmp_name",
+			"FileUtils::rename",
+			"",
+			"w.Hab",
+			"',",
+			"exit(1)",
+			"less-1.6.2",
+			"habitissimo_devel",
+			"sql_pass        = x2kh5424",
+			"x2kh5424",
+			".hugo",
+			"envdir /env/prod php /home",
+			"habitissimo.dev",
+			"habitissimo_dev",
+			"www",
+			"roles=['web', 'worker']",
+			"['web', 'worker']",
+			"",
+			"$1",
+			"$1\\n",
+			"",
+			"~",
+			"${UGLIFY}",
+			"host=127.0.0.1;port=3306",
+			"127.0.0.1",
+			".dev",
+			"\"",
+			"",
+			"with hint('",
+			"DEV",
+			"dev",
+			".devel",
+			"_DEVEL",
+			"localhost",
+			"rosetta_",
+			"ROSETTA_",
+			".co",
+			"tr_",
+			"mx_",
+			"it_",
+			"co_",
+			"cl_",
+			"br_",
+			"/tr",
+			"/mx",
+			"/it",
+			"/co",
+			"/cl",
+			"/br",
+			"/ar",
+			"<?= CHARSET_TABLE . \"\\n\" ?>",
+			"<?= CHARSET_TABLE ?>",
+			"<?= constant(\"CHARSET_TABLE\") ?>",
+			"<?= CHARSET_TABLE ?>",
+			"<?= $database['port'].\"\\n\" ?>",
+			"$database['port']",
+			"$database['pass']",
+			"$database['user']",
+			"$database['host']",
+			"",
+			"/var/lib/sphinxsearch/data/<?= $country ?>_",
+			"/var/lib/sphinxsearch/data/",
+			"<?=",
+			"<?= ",
+			"<?= $sql_host.\"\\n\" ?>",
+			"<?= $country.\"\\n\" ?>",
+			"$country",
+			"<?= $lang_code.\"\\n\" ?>",
+			"charset_table = <?= $charset_table . \"\\n\" ?>",
+			".devel",
+			"  ",
+			"/var/lib",
+			"renderJson",
+			"test.habitissimo.com",
+			"$request->post",
+			"HabAlbumFileQuery",
+			"$album_image",
+			"$hab_album_image",
+			"AlbumImage",
+			"testJack",
+			".co",
+			".hugo",
+			"footer",
+			"Gmagick",
+			"tools/wordpress/themes/",
+			"format_default",
+			"$format_default",
+			"${CLEAN_CSS}",
+			"@${CLEAN_CSS}",
+			"#home-header",
+			"",
+			"$sf_user->isBusiness()",
+			"->render(['class' => 'form-control']",
+			"",
+			"const MEDIUM_PX = Image::SIZE_MEDIUM_PX;\n  const SMALL_PX = Image::SIZE_SMALL_PX;",
+			"\n  "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4356,
+								4356
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2123.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"auto_name": "style.css",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/reveal.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 56328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								613,
+								613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 120.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.markdown":
+	{
+		"height": 114.0
+	},
+	"project": "reveal.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"mongodb",
+				"salt/roots/mongodb/templates/mongodb.conf"
+			],
+			[
+				"backup",
+				"salt/roots/habitissimo/templates/backup-database.sh"
+			],
+			[
+				"todo",
+				"TODO.md"
+			],
+			[
+				"test.sls",
+				"pillar/roots/docker/test.sls"
+			],
+			[
+				"new",
+				"pillar/roots/habitissimo/new.sls"
+			],
+			[
+				"pt-ar",
+				"salt/roots/habitissimo/templates/pt-archive.sh"
+			],
+			[
+				"db-arc",
+				"salt/roots/habitissimo/parts/db-archive.sls"
+			],
+			[
+				"crons.",
+				"salt/roots/habitissimo/crons.sls"
+			],
+			[
+				"makefi",
+				"Makefile"
+			],
+			[
+				"workers",
+				"salt/roots/habitissimo/workers.sls"
+			],
+			[
+				"load-ba",
+				"salt/roots/nginx/templates/sites-available/load-balancer.jinja"
+			],
+			[
+				"lb",
+				"salt/roots/nginx/lb.sls"
+			],
+			[
+				"phpsh",
+				"salt/roots/php/phpsh.sls"
+			],
+			[
+				"oad",
+				"salt/roots/nginx/templates/sites-available/load-balancer.jinja"
+			],
+			[
+				"makefile",
+				"Makefile"
+			],
+			[
+				"profile",
+				"salt/roots/habitissimo/templates/profile.jinja"
+			],
+			[
+				"custom-",
+				"salt/roots/munin-node/custom-plugins.sls"
+			],
+			[
+				"new.sls",
+				"pillar/roots/habitissimo/new.sls"
+			],
+			[
+				"prof",
+				"salt/roots/habitissimo/templates/profile.jinja"
+			],
+			[
+				"www.",
+				"salt/roots/php/templates/www.conf"
+			],
+			[
+				"env",
+				"salt/roots/habitissimo/parts/envs.sls"
+			],
+			[
+				"load-",
+				"salt/roots/nginx/templates/sites-available/load-balancer.jinja"
+			],
+			[
+				"sync-cr",
+				"salt/roots/habitissimo/cron.d/sync-crm"
+			],
+			[
+				"web",
+				"salt/roots/habitissimo/web.sls"
+			],
+			[
+				"git",
+				"salt/roots/habitissimo/parts/git-repo.sls"
+			],
+			[
+				"profi",
+				"salt/roots/habitissimo/templates/profile.jinja"
+			],
+			[
+				"fpm",
+				"salt/roots/php/templates/fpm.ini"
+			],
+			[
+				"www.con",
+				"salt/roots/php/templates/www.conf"
+			],
+			[
+				"partsenv",
+				"salt/roots/habitissimo/parts/envs.sls"
+			],
+			[
+				"custom",
+				"salt/roots/munin-node/custom-plugins.sls"
+			],
+			[
+				"fastcg",
+				"salt/roots/nginx/templates/fastcgi_params"
+			],
+			[
+				"upstre",
+				"salt/roots/nginx/templates/conf.d/upstreams.jinja"
+			],
+			[
+				"load",
+				"salt/roots/nginx/templates/sites-available/load-balancer.jinja"
+			],
+			[
+				"mariadbservi",
+				"salt/roots/mariadb/service.sls"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"deploy",
+				"salt/roots/habitissimo/parts/deploy.sls"
+			],
+			[
+				"backups",
+				"salt/roots/habitissimo/templates/backup-database.sh"
+			],
+			[
+				"bind9",
+				"pillar/roots/office/bind9/init.sls"
+			],
+			[
+				"habappl",
+				"lib/HabApplicationConfiguration.class.php"
+			],
+			[
+				"tasks.",
+				"tools/fabric/deploy/tasks.py"
+			],
+			[
+				"txerpa",
+				"lib/vendor/txerpa-api/lib/txerpa.php"
+			],
+			[
+				"txerpas",
+				"lib/task/TxerpaSyncWorkerTask.class.php"
+			],
+			[
+				"app.yml",
+				"config/app.yml"
+			],
+			[
+				"slim",
+				"tools/dump-slimmer.py"
+			],
+			[
+				"mysqlre",
+				"docs/mysql-replication"
+			],
+			[
+				"habformvalidators.class.php",
+				"lib/validators/HabFormValidators.class.php"
+			],
+			[
+				"uri.class.p",
+				"lib/utils/uri.class.php"
+			],
+			[
+				"signupbu",
+				"lib/form/SignUpBusinessForm.class.php"
+			],
+			[
+				"habbusiness",
+				"lib/model/HabBusiness.php"
+			],
+			[
+				"hab_commo",
+				"tools/nginx/habitissimo/hab_commons.conf"
+			],
+			[
+				"routing.yml",
+				"apps/frontend/config/routing.yml"
+			],
+			[
+				"settings",
+				"config/settings.yml"
+			],
+			[
+				"i18n.py",
+				"tools/fabric/i18n.py"
+			],
+			[
+				"dat",
+				"config/databases.yml"
+			],
+			[
+				"choices",
+				"lib/utils/choices.class.php"
+			],
+			[
+				"signupuserform",
+				"lib/form/SignUpCustomerForm.class.php"
+			],
+			[
+				"i18n.p",
+				"tools/fabric/i18n.py"
+			],
+			[
+				"selectsubcategorysuccess.php",
+				"apps/frontend/modules/quotation/templates/selectSubcategorySuccess.php"
+			],
+			[
+				"textos",
+				"data/prueba_lean/i18n/textos.php"
+			],
+			[
+				"landingste",
+				"apps/frontend/modules/quotation/templates/landingStepsSuccess.php"
+			],
+			[
+				"i18n_",
+				"tools/fabric/i18n_helpers.py"
+			],
+			[
+				"/templates/ajaxsigninsuccess.php",
+				"apps/frontend/modules/content/templates/ajaxSignInSuccess.php"
+			],
+			[
+				"login.js",
+				"web/static/js/login.js"
+			],
+			[
+				"signupbusiness",
+				"apps/frontend/modules/user/templates/signUpBusiness1Success.php"
+			],
+			[
+				"settings.",
+				"config/settings.yml"
+			],
+			[
+				"addedsuccess",
+				"apps/frontend/modules/quotation/templates/addedSuccess.php"
+			],
+			[
+				"frontendrout",
+				"apps/frontend/config/routing.yml"
+			],
+			[
+				"fabfile",
+				"fabfile.py"
+			],
+			[
+				"tasks.p",
+				"tools/fabric/deploy/tasks.py"
+			],
+			[
+				"nginxar",
+				"config/external/nginx/ar.conf"
+			],
+			[
+				"apps/frontend/modules/job/templates/showquotationforbusinesssuccess.php",
+				"apps/frontend/modules/job/templates/showQuotationForBusinessSuccess.php"
+			],
+			[
+				"apps/frontend/modules/job/templates/_tutorial_first_buy_modal.php",
+				"apps/frontend/modules/job/templates/_tutorial_first_buy_modal.php"
+			],
+			[
+				"oldeploy",
+				"tools/oldfabric/deploy.py"
+			],
+			[
+				"0089",
+				"lib/model/migration/0089_2014041413-marketing-guess-role-and-permissions.php"
+			],
+			[
+				"frontrouti",
+				"apps/frontend/config/routing.yml"
+			],
+			[
+				"customeractionsac",
+				"apps/frontend/modules/customer/actions/actions.class.php"
+			],
+			[
+				"dump",
+				"dump-slimmer.py"
+			],
+			[
+				"dump-s",
+				"dump-slimmer.py"
+			],
+			[
+				"apps/frontend/modules/user/templates/showsuccess.php",
+				"apps/frontend/modules/user/templates/showSuccess.php"
+			],
+			[
+				"apps/frontend/modules/customer/templates/showsummarysuccess.php",
+				"apps/frontend/modules/customer/templates/showSummarySuccess.php"
+			],
+			[
+				"cleandb",
+				"lib/task/HabitissimoCleanDBTask.class.php"
+			],
+			[
+				"databases",
+				"config/databases.yml"
+			],
+			[
+				"lib/task/habitissimosetuptask.class.php",
+				"lib/task/HabitissimoSetupTask.class.php"
+			],
+			[
+				"fabi18n",
+				"tools/fabric/i18n.py"
+			],
+			[
+				"habitissimoset",
+				"lib/task/HabitissimoSetupTask.class.php"
+			],
+			[
+				"databases.yml",
+				"config/databases.yml"
+			],
+			[
+				"frontroutin",
+				"apps/frontend/config/routing.yml"
+			],
+			[
+				"apps/frontend/modules/photo/actions/actions.class.php",
+				"apps/frontend/modules/photo/actions/actions.class.php"
+			],
+			[
+				"frontphotoactioons",
+				"apps/frontend/modules/photo/actions/actions.class.php"
+			],
+			[
+				"sfvalidatorfile.class.php",
+				"plugins/symfony/lib/validator/sfValidatorFile.class.php"
+			],
+			[
+				"0091",
+				"lib/model/migration/0091_2014042209_cleaning-shit.php"
+			],
+			[
+				"0092",
+				"lib/model/migration/0092_2014042209_cleaning.php"
+			],
+			[
+				"0093",
+				"lib/model/migration/0093_2014042209_cleaning.php"
+			],
+			[
+				"propeldiff",
+				"plugins/sfPropelORMPlugin/lib/task/sfPropelDiffTask.class.php"
+			],
+			[
+				"schema",
+				"config/schema.xml"
+			],
+			[
+				"apps/frontend/modules/quotation/actions/actions.",
+				"apps/frontend/modules/quotation/actions/actions.class.php"
+			],
+			[
+				"0069",
+				"lib/model/migration/0069_2014013010_questions_and_answers_tables.php"
+			],
+			[
+				"config/fac",
+				"config/factories.yml"
+			],
+			[
+				"schema.",
+				"config/schema.xml"
+			],
+			[
+				"apps/frontend/modules/quotation/templates/landinguresponsivesuccess.php",
+				"apps/frontend/modules/quotation/templates/landingUResponsiveSuccess.php"
+			],
+			[
+				"apps/frontend/modules/quotation/templates/_landinguresponsive.js.php",
+				"apps/frontend/modules/quotation/templates/_landingUResponsive.js.php"
+			],
+			[
+				"0088",
+				"lib/model/migration/0088_2014041617_cleaning.php"
+			],
+			[
+				"deploy.",
+				"tools/fabric/deploy/deploy.py"
+			],
+			[
+				"net-s",
+				"web/static/less/modules/user/net-promoter-survey.less"
+			],
+			[
+				"showsumma",
+				"apps/frontend/modules/customer/templates/showSummarySuccess.php"
+			],
+			[
+				"_tail",
+				"apps/frontend/templates/__tail.php"
+			],
+			[
+				"service",
+				"Habitissimo/Application/Actions/Service.php"
+			],
+			[
+				"habtagga",
+				"lib/HabPropelTaggableBehavior.class.php"
+			],
+			[
+				"baseser",
+				"plugins/sfPropelORMPlugin/lib/vendor/phing/classes/phing/types/selectors/BaseSelector.php"
+			],
+			[
+				"layout_user",
+				"apps/frontend/templates/layout_user_panel.php"
+			],
+			[
+				"sfactionex",
+				"lib/sfActionExtension.class.php"
+			],
+			[
+				"sfactione",
+				"lib/sfActionExtension.class.php"
+			],
+			[
+				"sfaction",
+				"plugins/symfony/lib/action/sfAction.class.php"
+			],
+			[
+				"apiactions",
+				"apps/api/lib/ApiActions.class.php"
+			],
+			[
+				"myuser",
+				"lib/myUser.class.php"
+			],
+			[
+				"migration0090",
+				"lib/model/migration/0090_2014041509-net-promoter-survey.php"
+			],
+			[
+				"js_globa",
+				"apps/frontend/templates/__js_globals.php"
+			],
+			[
+				"apirouting",
+				"apps/api/config/routing.yml"
+			],
+			[
+				"_net",
+				"apps/frontend/modules/customer/templates/_net_promoter_survey.php"
+			],
+			[
+				"net-pt",
+				"web/static/less/modules/user/net-promoter-survey.less"
+			],
+			[
+				"sfuser",
+				"plugins/symfony/lib/user/sfUser.class.php"
+			],
+			[
+				"habquotationform",
+				"lib/form/HabQuotationForm.class.php"
+			],
+			[
+				"brand_bloc",
+				"apps/frontend/modules/brand/templates/_catalogue_block.php"
+			],
+			[
+				"habbrand.p",
+				"lib/model/HabBrand.php"
+			],
+			[
+				"amdtele",
+				"lib/vendor/amdtelecom-sms/AmdTelecomSms.class.php"
+			],
+			[
+				"conf.",
+				"lib/Conf.class.php"
+			],
+			[
+				"_social_ico",
+				"apps/frontend/modules/content/templates/_social_icons.php"
+			],
+			[
+				"sfvalidatorchoi",
+				"plugins/symfony/lib/validator/sfValidatorChoice.class.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/projects/habitissimo/habitissimo.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+		],
+		"width": 1194.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 309.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
