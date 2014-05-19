@@ -315,21 +315,21 @@ function linkify( selector ) {
                 </section>
 
                 <section data-state="arch">
-                    <h1>Arquitectura ágil</h1> 
+                    <h1>Arquitectura ágil</h1>
                     <aside class="notes">
                         <ul>
                             <li>Scrum = como organizamos nuestro trabajo. Arquitectura = cómo organizamos el fruto del trabajo (código)</li>
                             <li>Hemos tenido que adaptar la aplicación para el desarrollo ágil.</li>
                             <li>Seguimos adaptandolo y queremos ofrecer un puesto en prácticas para que alguien nos heche una mano y disfrute</li>
                             <li style="margin-top:15px">Antes de empezar. ¿Cómo se programa una web? Hablar de frameworks y MVC</li>
-                        </ul>                        
+                        </ul>
                     </aside>
                 </section>
 
                 <section data-state="arch">
                     <p class="diagram-title">MVC</p>
-                    <img src="assets/img/mvc.png" class="diagram"/> 
-                    
+                    <img src="assets/img/mvc.png" class="diagram"/>
+
                     <aside class="notes">
                         <ul style="font-size: 0.8em">
                             <li>MVC separa tres capas distintas</li>
@@ -340,14 +340,31 @@ function linkify( selector ) {
                                 <li>El controlador pasa los datos necesarios a la vista</li>
                                 <li>La vista pinta en bonito los datos recibidos del controlador</li>
                             </ul>
-                            <li>¿Dónde está la chica/lógica de aplicación/lógica de negocio?</li>
-                        </ul>                        
+                            <li>¿Dónde está la chica/lógica de aplicación/lógica de negocio? ¿Controlador, Modelo, vista?</li>
+                        </ul>
                     </aside>
                 </section>
 
                 <section data-state="arch">
-                        <p class="diagram-title">ORM</p>
-                        <img src="assets/img/orm.png" class="diagram"/>
+                    <p class="diagram-title">ORM</p>
+                    <img src="assets/img/orm.png" class="diagram"/>
+                    <aside class="notes">
+                        <ul>
+                            <li>Object-relational mapping: nos permite gestionar la base de dates con objetos del lenguaje de programación</li>
+                            <ul>
+                                <li>Una tabla = una clase</li>
+                                <li>Atributos = columnas.</li>
+                                <li>Además métodos save(), get() etc.</li>
+                            </ul>
+                            <li>Peligros</li>
+                            <ul>
+                                <li>La BBDD es un detalle de impl. no tiene nada que ver con la aplicación</li>
+                                <li>Al final para crear un estudiante tienes que crear un nuevo estudiante. Crear una nueva persona, guardarlo para poder obtener una ID autogenerada de base de datos, asignar esa ID de la persona al estudiante. Obtener un profesor de la base de datos, asignarselo como tutor al estudiante. Lo mismo para las aulas si las gestionas como una tabla distinta. Luego le vas a enviar el e-mail de confirmación, siempre y cuando no haya un registro ya con ese e-mail en cuyo caso habrías tirado una excepción porque no puede haber dos personas con el mismo e-mail.</li>
+                                <li>Todo esto lo vas a hacer en el controlador o quizás en el modelo si decides que queda mejor hacerlo en el modelo porque ya has metido tanta lógica inpropia del controlador en el controlador que ya no sabes donde meterlo. Eso si no te da por meter la en un form de los cuales no quiero ya ni hablar porque son una violación de todas las capas del MVC que no tendría que haber existido jamás.</li>
+                                <li>Total, que tras cuatro años desarrollando a lo cowboy acabas teniendo...</li>
+                            </ul>
+                        </ul>
+                    </aside>
                 </section>
 
                 <section data-background="assets/img/spaghetti.jpg">
@@ -361,13 +378,13 @@ function linkify( selector ) {
                 <section data-state="arch">
                         <p class="diagram-title">Entidades</p>
                         <img src="assets/img/entities.png" class="diagram"/>
-                </section> 
+                </section>
 
 
                 <section data-state="arch">
                   <blockquote>
-                    <p class="quote">Strong static typing has really significant benefits</p>
-                    <p class="author"><img src="assets/img/carmack.jpg" alt="The amazing John Carmack" class="noborder round">John Carmack</p>
+                    <p class="quote fragment">"Strong static typing has really significant benefits"</p>
+                    <p class="author"><img src="assets/img/carmack.jpg" alt="The amazing John Carmack" class="noborder round"><a href="https://twitter.com/ID_AA_Carmack">John Carmack</a></p>
                   </blockquote>
                 </section>
 
@@ -393,7 +410,7 @@ function linkify( selector ) {
 
                 <section data-state="arch">
                   <blockquote>
-                    <p class="quote">Estábamos haciendo un 30% menos del trabajo necesario</p>
+                    <p class="quote">"Estábamos haciendo un 30% menos del trabajo necesario"</p>
                     <p class="author"><img src="assets/img/hugo.jpg" alt="Hugo Chinchilla saliendo muy guapo" class="noborder round">Hugo Chinchilla</p>
                   </blockquote>
                 </section>
@@ -722,10 +739,10 @@ Disconnecting from linuxbox... done.
                     </section>
                 </section>
 
-				<section data-state="fabric">
-					<h2>Esto está hecho</h2>
-					<h3 class="fragment">En 20 lineas de código</h3>
-				</section>
+                <section data-state="fabric">
+                    <h2>Esto está hecho</h2>
+                    <h3 class="fragment">En 20 lineas de código</h3>
+                </section>
 
                 <section data-state="fabric">
                     <pre><code data-trim>
@@ -748,8 +765,8 @@ def deploy():
             run("ln -sfn releases/%(release)s current" % env)
         else:
             run("ln -s releases/%(release)s current" % env)
-					</code></pre>
-					<pre><code data-trim>
+                    </code></pre>
+                    <pre><code data-trim>
 @task
 def rollback():
     with cd("/opt/site"):
