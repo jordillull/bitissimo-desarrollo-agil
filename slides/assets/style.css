@@ -50,8 +50,27 @@ section.vagrant {
   color: white;
 }
 
+.arch .reveal .state-background {
+  background: rgb(255, 182, 106);
+}
+
 .git .reveal .state-background {
   background: rgb(108, 193, 250);
+}
+
+blockquote .quote {
+}
+
+blockquote .author {
+    font-size: 50%;
+    font-style: ;
+}
+
+blockquote .author img{
+    height: 100px;
+    vertical-align: middle;
+    margin-right: 15px;
+    border-radius: 50px;
 }
 
 .vagrant .reveal {
