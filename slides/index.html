@@ -88,7 +88,7 @@ function linkify( selector ) {
                     </p>
                   </aside>
                   <h1>Introducción</h1>
-                  <h3>Habitissimo fue creada con  lo mínimo necesario</h3>
+                  <h3 class="fragment">Habitissimo fue creada con lo mínimo necesario</h3>
 				</section>
 
                 <section data-state="intro">
@@ -208,7 +208,7 @@ function linkify( selector ) {
     			  <h1>Nos vimos obligados a cambiar.</h1>
                   <ul>
                     <li class="fragment">
-                        <i>'Ágil'</i>: capacidad de
+                        <strong>Ágil</strong>: capacidad de
                         reaccionar rápidamente ante situaciones de cambio.
                     </li>
                     <li class="fragment">
@@ -316,18 +316,18 @@ function linkify( selector ) {
 
 				<section data-state="arch">
 					<h1>MVC</h1>
-                </section>
+        </section>
 
 				<section data-state="arch">
-					<img src="assets/img/mvc.png" class="noborder" />
+					<img src="assets/img/mvc.png" class="diagram"/>
+				</section>
+
+				<section data-background="assets/img/spaghetti.jpg">
+          <span>&nbsp;</span>
 				</section>
 
 				<section data-state="arch">
-					<img src="assets/img/spaghetti.jpg" class="noborder" />
-				</section>
-
-				<section data-state="arch">
-					<img src="assets/img/mvc_service.png" class="noborder" />
+					<img src="assets/img/mvc_service.png" class="diagram"/>
 				</section>
 
                 <section data-state="arch">
@@ -344,10 +344,6 @@ function linkify( selector ) {
 				<section data-state="arch">
 					<img src="assets/img/mvc_service_test.png" class="noborder" />
 				</section>
-
-                <section data-state="arch">
-					<h1>Tests</h1>
-                </section>
 
                 <section data-state="arch">
 					<h1>Los datos</h1>
@@ -369,10 +365,8 @@ function linkify( selector ) {
                 </section>
 
 
-				<section data-state="git">
-					<!-- GIT -->
+				<section data-state="logo">
 					<img src="assets/img/git-color.png" height="300" class="noborder" />
-					<h3 class="fragment">La herramienta imprescindible</h3>
 				</section>
 
 				<section data-state="git">
@@ -401,7 +395,6 @@ function linkify( selector ) {
 						<li class="fragment">Diferentes workflows para diferentes necesidades</li>
 						<li class="fragment">Tener muchas ramas es "barato"</li>
 						<li class="fragment"><code>git stash</code></li>
-						<li class="fragment"><code>git blame</code></li>
 						<li class="fragment"><code>git bisect</code></li>
 					</ul>
 				</section>
@@ -433,21 +426,13 @@ function linkify( selector ) {
 					<p>Cómo Habitissimo hace uso de Git</p>
 				</section>
 
-				<section data-state="git">
-					<h2>2 ramas principales</h2>
-					<dl>
-						<dt>master:</dt> <dd>siempre estable</dd>
-						<dt>develop:</dt> <dd>se cree estable, pero no ha sido probado en producción</dd>
-					</dl>
-				</section>
-
-				<section data-state="git">
-					<h2>1 rama de Sprint</h2>
-					<aside class="notes">
-						<p>Por cada sprint creamos una rama donde todos vamos añadiendo bloques de trabajo.</p>
-						<p>Estos bloques son unidades completas que procuran no romper nada para no entorpecer al equipo</p>
-					</aside>
-				</section>
+        <section data-state="git">
+          <h2>2 ramas principales</h2>
+          <dl>
+            <dt>master:</dt> <dd>siempre estable</dd>
+            <dt>develop:</dt> <dd>se cree estable, pero no ha sido probado en producción</dd>
+          </dl>
+        </section>
 
 				<section data-state="git">
 					<h2>&infin; ramas de desarrollo</h2>
@@ -458,45 +443,282 @@ function linkify( selector ) {
 					</aside>
 				</section>
 
-				<section data-state="vagrant">
+        <section data-state="git">
+          <h2>1 rama de Sprint</h2>
+          <aside class="notes">
+            <p>Por cada sprint creamos una rama donde todos vamos añadiendo bloques de trabajo.</p>
+            <p>Estos bloques son unidades completas que procuran no romper nada para no entorpecer al equipo</p>
+          </aside>
+        </section>
+
+				<section data-state="logo">
 					<img src="assets/img/vagrant.logo.png" height="300" class="noborder" />
 				</section>
 
 				<section data-state="vagrant">
-					<h1>Entornos portables</h1>
-					<p>Vagrant permite que el esfuerzo de instalar y poner a punto un entorno de trabajo sea una tarea replicable.</p>
+					<h3>¿Que es?</h3>
+					<p>Vagrant es una herramienta para automatizar la creacion y el uso de máquinas virtuales</p>
 				</section>
 
 				<section data-state="vagrant">
-					<p>Inicialmente era un wrapper para VirtualBox</p>
-					<p>Actualmente soporta multiples "proveedores"</p>
-					<ul class="fragment">
-						<li>VirtualBox</li>
-						<li>VMware</li>
-						<li>Hyper-V (solo windows)</li>
+					<h2>
+						¿Por qué trabajar con máquinas virtuales
+						<span class="fragment">si estas son pesadas</span>
+						<span class="fragment">, lentas</span>
+						<span class="fragment">y ocupan mucho espacio</span>
+						?</h2>
+				</section>
+
+				<section data-state="vagrant">
+					<h2>Es verdad, pero tambien solucionan otros problemas</h2>
+					<ul>
+						<li class="fragment">Facilitan la portabilidad</li>
+						<li class="fragment">Homogeniza el entorno de desarrollo</li>
+						<li class="fragment">Independencia del hardware</li>
 					</ul>
 				</section>
 
 				<section data-state="vagrant">
-					<pre><code data-trim contenteditable>
-$ vagrant init precise64
+					<h2>Además</h2>
+					<h3>vamos a usar distribuciones de servidor</h3>
+					<ul>
+						<li class="fragment">sin entorno gráfico (más ligeras)</li>
+						<li class="fragment">arrancan rápido</li>
+						<li class="fragment">ejecutan servicios mínimos</li>
+					</ul>
+
+					<p class="fragment">Despues de todo, no son tan pesadas como parecía</p>
+				</section>
+
+				<section data-state="vagrant">
+					<h3>¿Por qué es mejor que VirtualBox o otras alternativas?</h3>
+					<p>Vagrant utiliza VirtualBox para crear las máquinas virtuales</p>
+					<p>Simplifica el uso y facilita la portabilidad</p>
+				</section>
+
+				<section data-state="vagrant">
+					<h2>No compartimos la imagen de la máquina</h2>
+					<h3 class="fragment">Compartimos la descripción de la máquina</h3>
+				</section>
+
+				<section>
+					<section data-state="vagrant">
+						<h1>Vagrantfile</h1>
+						<p>Receta que describe la máquina, su sistema operativo, carpetas compartidas, mapeo de puertos...</p>
+
+						<pre class="fragment"><code data-trim contenteditable>
+Vagrant.configure(2) do |config|
+  config.vm.box = "ubuntu/trusty64"
+
+  config.vm.network :private_network, ip: "192.168.33.10"
+  config.vm.network "forwarded_port", guest: 80, host: 8080, auto_correct: true
+
+  config.vm.synced_folder "../_site", "/site"
+
+  config.vm.provision "shell", path: "install.sh"
+end
+						</code></pre>
+
+					</section>
+
+					<section data-state="vagrant">
+						<pre><code data-trim contenteditable>
+#!/bin/sh
+sudo apt-get update
+sudo apt-get install -y nginx
+sudo rm /etc/nginx/sites-enabled/default
+sudo tee /etc/nginx/sites-enabled/site.conf &lt;&lt;EOF
+server {
+    listen 80;
+
+    root /site;
+
+    location / {
+      index  index.html index.htm;
+    }
+}
+EOF
+
+sudo service nginx restart
+						</code></pre>
+					</section>
+				</section>
+
+				<section data-state="vagrant" data-transition="none">
+					<h1>Pero yo no tengo ni idea de sistemas</h1>
+				</section>
+
+				<section data-state="vagrant" data-transition="none">
+					<h1>Pero yo no tengo ni idea de Linux</h1>
+				</section>
+
+				<section data-state="vagrant" data-transition="none">
+					<h1>Pero yo no tengo ni idea de ...</h1>
+				</section>
+
+				<section>
+					<section data-state="vagrant">
+						<h3>Vagrant oculta los detalles que no necesitas conocer</h3>
+						<pre><code data-trim contenteditable>
 $ vagrant up
-$ vagrant ssh
+						</code></pre>
+
+						<p>Cuando tienes un Vagrantfile, este es el único comando que necesitas saber</p>
+					</section>
+
+					<section data-state="vagrant">
+						<pre><code data-trim contenteditable>
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Checking if box 'ubuntu/trusty64' is up to date...
+==> default: Clearing any previously set forwarded ports...
+==> default: Clearing any previously set network interfaces...
+==> default: Preparing network interfaces based on configuration...
+    default: Adapter 1: nat
+    default: Adapter 2: hostonly
+==> default: Forwarding ports...
+    default: 80 => 8080 (adapter 1)
+    default: 22 => 2222 (adapter 1)
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+    default: SSH address: 127.0.0.1:2222
+    default: SSH username: vagrant
+    default: SSH auth method: private key
+    default: Warning: Connection timeout. Retrying...
+==> default: Machine booted and ready!
+==> default: Checking for guest additions in VM...
+    default: The guest additions on this VM do not match the installed version of
+    default: VirtualBox! In most cases this is fine, but in rare cases it can
+    default: prevent things such as shared folders from working properly. If you see
+    default: shared folder errors, please make sure the guest additions within the
+    default: virtual machine match the version of VirtualBox you have installed on
+    default: your host and reload your VM.
+    default:
+    default: Guest Additions Version: 4.3.10
+    default: VirtualBox Version: 4.2
+==> default: Configuring and enabling network interfaces...
+==> default: Mounting shared folders...
+    default: /site => /home/hchinchilla/projects/bitissimo-desarrollo-agil/site/_site
+    default: /vagrant => /home/hchinchilla/projects/bitissimo-desarrollo-agil/server
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> default: to force provisioning. Provisioners marked to run always will still run.
+						</code></pre>
+					</section>
+				</section>
+
+				<section data-state="logo">
+					<h3>Fabric</h3>
+					<img src="assets/img/fabric.logo.png" height="300" class="noborder" />
+				</section>
+
+				<section data-state="fabric">
+					<h3>¿Qué es?</h3>
+					<blockquote class="fragment">
+					Fabric is a Python library and command-line tool for streamlining the use of SSH for application deployment or systems administration tasks.
+					</blockquote>
+				</section>
+
+				<section data-state="fabric">
+					<h2>Permite la automatización de una serie de pasos para realizar una tarea</h2>
+				</section>
+
+				<section data-state="fabric">
+					<h2>API</h2>
+					<p>La API es muy sencilla, destacan 3 métodos</p>
+					<ul>
+						<li class="fragment">cd</li>
+						<li class="fragment">run</li>
+						<li class="fragment">sudo</li>
+					</ul>
+				</section>
+
+				<section data-state="fabric">
+					<h2>Ejemplo sencillo</h2>
+					<pre><code data-trim contenteditable>
+# fabfile.py
+from fabric.api import run
+
+def host_type():
+    run('uname -s')
 					</code></pre>
 
-					<p>Acabamos de crear una máquina virtual usando Ubuntu precise 64bits.</p>
-					<p>Una vez hayamos configurado la máquina podemos compartirla con nuestros compañeros.</p>
+					<pre><code data-trim contenteditable>
+$ fab -H localhost,linuxbox host_type
+[localhost] run: uname -s
+[localhost] out: Darwin
+[linuxbox] run: uname -s
+[linuxbox] out: Linux
+
+Done.
+Disconnecting from localhost... done.
+Disconnecting from linuxbox... done.
+					</code></pre>
 				</section>
 
-
-				<section data-state="vagrant">
-					<h1>Pero no es muy portable</h1>
-					<p>Y los detalles de configuración no son nada visibles.</p>
+				<section data-state="fabric">
+					<h2>Ejemplo del mundo real&trade;</h2>
+					<p>Vamos a diseñar un proceso de deploy basado en git</p>
 				</section>
 
-				<section data-state="vagrant">
-					<h1>Vagrantfile</h1>
+				<section data-state="fabric">
+					<h2>Requerimientos</h2>
+					<ul>
+						<li class="fragment">Cualquier desarrollador tiene que ser capaz de usarlo</li>
+						<li class="fragment">Debe permitir revertir a la versión anterior si hay problemas</li>
+					</ul>
+					<p class="fragment">¿Pare complicado?</p>
 				</section>
+
+				<section>
+					<section data-state="fabric">
+						<h2>Diseño</h2>
+						<p class="left">Tendremos un directorio en <code class="path">/opt/site</code> donde contendremos todo lo relativo a la aplicación.</p>
+						<p class="left">En ese directorio, contendremos el repositorio y una carpeta con las diferentes versiones.</p>
+						<p class="left">También usaremos enlaces simbólicos como "punteros" a las versiones contenidas en <code class="path">releases</code>.</p>
+					</section>
+					<section data-state="fabric">
+						<pre><code data-trim>
+#                             # /opt/site
+# git repository              #   git/
+# will contain deploys        #   releases/
+# old release                 #     2015-05-15-12.33.44
+# latest relase               #     2015-05-16-21.10.54
+# points to current release   #   current
+# points to previous release  #   previous
+						</code></pre>
+					</section>
+				</section>
+
+				<section data-state="fabric">
+					<h2>Esto está hecho</h2>
+					<h3 class="fragment">En 16 lineas de código</h3>
+				</section>
+
+				<section data-state="fabric">
+					<pre><code data-trim>
+@task
+def deploy():
+    env.release = time.strftime('%Y-%m-%d-%H.%M.%S')
+
+    with cd("/opt/site"):
+        run("mkdir -p releases/%(date)s" % env)
+
+    with cd("/opt/site/repo"):
+        run("git pull")
+        run("git export master | tar -x -C /opt/site/releases/%(date)s" % env)
+
+    with cd("/opt/site"):
+        if files.exists("previous") run("rm previous")
+        if files.exists("current") run("cp -P current previous")
+        run("ln -sfn releases/%(date)s current" % env)
+					</code></pre>
+					<pre><code data-trim>
+@task
+def rollback():
+    with cd("/opt/site/releases"):
+        run("rm current &amp;&amp; mv previous current")
+					</code></pre>
+				</section>
+
 
 			</div>
 		</div>

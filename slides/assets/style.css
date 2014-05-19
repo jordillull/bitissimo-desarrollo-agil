@@ -1,15 +1,23 @@
+.reveal section h1 {
+  line-height: 1.3em;
+}
 .reveal section h2 {
-  margin-top: 1em;
   margin-bottom: 1em;
+  line-height: 1.3em;
 }
 .reveal section h3 {
-  margin-top: 1em;
   margin-bottom: 1em;
+  line-height: 1.3em;
 }
 .reveal section img.noborder {
   border: 0;
   box-shadow: none;
   background: transparent;
+}
+.reveal section img.diagram {
+  border-radius: 20px;
+  background: #fff;
+  padding: 20px;
 }
 .reveal section ul {
   margin-top: 2em;
@@ -43,42 +51,60 @@
 .reveal p.left {
   text-align: left;
 }
-
-
-section.vagrant {
-  background: red;
-  color: white;
+.reveal code.path {
+  display: inline-block;
+  border: 1px solid silver;
+  padding: 4px 8px;
+  border-radius: 3px;
 }
-
-.arch .reveal .state-background {
-  background: rgb(255, 182, 106);
+.reveal h1, .reveal h2, .reveal h3 .reveal p {
+  hyphens: none;
 }
-
-.git .reveal .state-background {
-  background: rgb(108, 193, 250);
+.reveal blockquote {
+  background: #fff;
+  color: #657b83;
 }
-
-blockquote .quote {
-}
-
-blockquote .author {
+.reveal blockquote .author {
     font-size: 50%;
     font-style: ;
 }
 
-blockquote .author img{
+.reveal blockquote .author img{
     height: 100px;
     vertical-align: middle;
     margin-right: 15px;
     border-radius: 50px;
 }
 
-.vagrant .reveal {
-  color: #fff;
+.intro .reveal .state-background {
+  background: rgb(49,49,49)
+}
+.arch .reveal .state-background {
+  background: rgb(158, 216, 224)
+}
+.git .reveal .state-background {
+  background: #CE5B46;
 }
 .vagrant .reveal .state-background {
-  background: rgb(108, 193, 250);
+  background: #6CC1FA;
+}
+.fabric .reveal .state-background {
+  background: #619D75;
+}
+.logo .reveal .state-background {
+  background: #fff;
 }
 
+.intro   .reveal, .intro   .reveal h1, .intro   .reveal h2, .intro   .reveal h3 {
+  color: #21E421;
+}
 
-
+/*
+.intro   .reveal, .intro   .reveal h1, .intro   .reveal h2, .intro   .reveal h3,
+.arch    .reveal, .arch    .reveal h1, .arch    .reveal h2, .arch    .reveal h3,
+*/
+.git     .reveal, .git     .reveal h1, .git     .reveal h2, .git     .reveal h3,
+.vagrant .reveal, .vagrant .reveal h1, .vagrant .reveal h2, .vagrant .reveal h3,
+.fabric  .reveal, .fabric  .reveal h1, .fabric  .reveal h2, .fabric  .reveal h3 {
+  color: #fff;
+}

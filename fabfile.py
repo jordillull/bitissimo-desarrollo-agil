@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Examples:
+Usage:
 
     fab deploy
     fab rollback
