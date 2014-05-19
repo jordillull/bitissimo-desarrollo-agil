@@ -6,8 +6,8 @@ VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/trusty64"
 
-  config.vm.network :private_network, ip: "192.168.33.10"
-  config.vm.network "forwarded_port", guest: 80, host: 8080, auto_correct: true
+  config.vm.network :private_network, ip: "192.168.33.20"
+  config.vm.network "forwarded_port", guest: 80, host: 8000, auto_correct: true
 
   config.vm.provision "shell", path: "install.sh"
 end

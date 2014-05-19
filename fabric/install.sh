@@ -25,21 +25,12 @@ server {
 EOF
 
 # prepare the repo
-sudo mkdir /opt/repo
-sudo mkdir /opt/repo/releases
+sudo mkdir /opt/site
+sudo mkdir /opt/site/releases
+sudo chown vagrant:vagrant -R /opt/site
 
-sudo chown vagrant:vagrant -R /opt/repo
-sudo -u vagrant git clone git@github.com:hugochinchilla/dumb-test.git /opt/site/git
+# clone the repository
+sudo -u vagrant git clone https://github.com/hugochinchilla/dumb-test.git /opt/site/git
 
 # restart nginx to apply the changes
 sudo service nginx restart
-
-
-
-#                             # /opt/site
-# git repository              #   git/
-# will contain deploys        #   releases/
-# old release                 #     2015-05-15-12.33.44
-# latest relase               #     2015-05-16-21.10.54
-# points to current release   #   current
-# points to previous release  #   previous
