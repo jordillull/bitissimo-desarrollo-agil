@@ -6,7 +6,7 @@
 
 		<title>Herramientas de desarrollo ágil</title>
 
-		<meta name="author" content="Jordi Llull, Lluis Ballester, Hugo Chinchilla">
+		<meta name="author" content="Jordi Llull, Lluís Ballester, Hugo Chinchilla">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -66,10 +66,253 @@ function linkify( selector ) {
 					<h1>Herramientas de desarrollo ágil</h1>
 				</section>
 
-				<section>
-					<h1>Scrum</h1>
-					<h3>fancy scrum description goes here</h3>
+                <section data-state="intro">
+				  <aside class="notes">
+                    <ul>
+                      <li> Un programador inicialmente.</li>
+                      <li> Dos programadores después.</li>
+                      <li> Desarrollo de una web y herramientas de
+                           gestión en muy poco tiempo. </li>
+                      <li> Inercia llevó a ignorar metodologías y
+                           arquitectura de software. </li>
+                      <li> Negocio no puede esperar 1 año a tener una
+                           infraestructura técnica exquisita.</li>
+                    </ul>
+                    <p>
+                      Símil de estudios
+                    </p>
+                    <p>
+                      Programadores se ponen el cuchillo entre los dientes e
+                      intentan sobrevivir y sacar las cosas adelante a
+                      cualquier precio.
+                    </p>
+                  </aside>
+                  <h1>Introducción</h1>
+                  <h3>Habitissimo fue creada con  lo mínimo necesario</h3>
 				</section>
+
+                <section data-state="intro">
+                  <aside class="notes">
+                    <ul>
+                      <li>Transición de 5 a 50 personas (80 ahora)</li>
+                      <li>Nuevos departamentos, cada vez más y más
+                      necesidades.</li>
+                      <li>
+                          Equipo técnico creció de tres a cuatro y
+                          finalmente a cinco programadores
+                      </li>
+                    </ul>
+                  </aside>
+				  <h1>Evolución</h1>
+                    <p class="fragment">
+                      &#9786;&#9787;&#9787;&#9787;&#9787;
+                    </p>
+                    <p class="fragment">
+                      &#9786;&#9786;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;
+                    </p>
+                   <p class="fragment">
+                      &#9785;&#9785;&#9785;&#9785;
+                      &#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;
+                      &#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;
+                      &#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;
+                      &#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;
+                      &#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;
+                      &#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;
+                      &#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;&#9787;
+                    </p>
+                </section>
+
+                <section data-state="intro">
+                 <aside class="notes">
+                  <ul>
+                    <li>
+                       Modelo de desarrollo basado en <i>'tickets'</i>
+                    </li>
+                    <li>
+                      Programadores cogían un <i>'ticket'</i>
+                    </li>
+                    <li>
+                      No se estimaba
+                    </li>
+                    <li>No se analizaban</li>
+                  </ul>
+                  <br/>
+                  <ul
+                    <li>
+                      No se sabía cuando estarían
+                      acabados.
+                    </li>
+                    <li>
+                      Una vez acabados, solo la
+                      persona que los realizaba conocía como se había
+                      desarrollado.
+                    </li>
+                    <li>
+                      Programadores acababan creando 'feudos' de
+                      conocimiento.
+                    </li>
+                    <li>
+                      No se podía desarrollar lo suficientemente rápido
+                      como para suplir la demanda.
+                    </li>
+                  </ul>
+
+                 </aside>
+    			  <h1>¿Cómo se desarrollaba?</h1>
+                  <h3>Desarrollos = "Agujeros Negros"</h3>
+
+                  <table>
+                  <tr>
+                  <td>
+                    <p class="fragment">
+                        <img src="assets/img/ticket_machine.jpg" height="300" class="noborder" />
+                    </p>
+                  </td>
+                  <td>
+                    <p class="fragment">
+                      <img src="assets/img/knights_crusades.jpg" height="300" class="noborder"/>
+                    <p>
+                  </td>
+                  <td>
+                    <p class="fragment">
+                       <font size="80">=</font>
+                    </p>
+                  </td>
+                  <td>
+                    <p class="fragment">
+                      <img src="assets/img/tower_of_crap.jpg" height="300" class="noborder"/>
+                    <p>
+                  </td>
+                  </tr>
+                  </table>
+                </section>
+
+                <section data-state="intro">
+                  <aside class="notes">
+                    <ul>
+                      <li>
+                        Yo os hablaré de <i>'Scrum'</i>, la metodología de
+                        desarrollo que decidimos usar.
+                      </li>
+                      <li>
+                        Mi compañero, Jordi Llull os hablará de la
+                        arquitectura de software que implementamos.
+                      </li>
+                      <li>
+                        Finalmente, Hugo Chinchilla os explicará las
+                        bondades de GIT, Vagrant y Fabric para asistir al
+                        desarrollo de una manera <i>ágil</i>.
+                      </li>
+                    </ul>
+                  </aside>
+    			  <h1>Nos vimos obligados a cambiar.</h1>
+                  <ul>
+                    <li class="fragment">
+                        <i>'Ágil'</i>: capacidad de
+                        reaccionar rápidamente ante situaciones de cambio.
+                    </li>
+                    <li class="fragment">
+                      Scrum.
+                    </li>
+                    <li class="fragment">
+                      Arquitectura de software.
+                    </li>
+                    <li class="fragment">
+                      Entornos de desarrollo y despliegue de
+                      aplicaciones.
+                    </li>
+                  </ul>
+                </section>
+
+                <section data-state="scrum">
+                  <aside class="notes">
+                  <ul>
+                    <li>
+                      Tradicionalmente las metodologías de desarrollo
+                      están basadas en la <i>SDLC</i> o
+                      <i>'Systems Development Life Cicle'</i>
+                      (SDLC se enseña en las facultades de medio mundo)
+                    </li>
+                    <li>
+                      Metodologías pesadas y burocráticas,
+                      que no tienen porqué funcionar en todos los
+                      escenarios.
+                    </li>
+                    <li>
+                      Uso en macro-empresas, entornos con paciencia y
+                      capital rebosante.
+                    </li>
+                    <li>
+                      Comparación entre lenguajes estáticos
+                      fuertemente tipados y lenguajes dinámicos
+                      débilmente tipados.
+                      </li>
+                    </ul>
+                  </aside>
+    			  <h1>Metodologías tradicionales:</h1>
+                    <p class="fragment">
+                      Metodologías basadas en el SDLC.
+                    </p>
+                    <p class="fragment">
+                      <img src="assets/img/businessman.jpg" height="300" class="noborder"/>
+                    </p>
+                </section>
+
+                <section data-state="scrum">
+                  <aside class="notes">
+                    <ul>
+                      <li >
+                        Planificaciones de 1 año y medio.
+                      </li>
+                      <li >
+                        MS Project de 4 metros de largo una vez
+                        impreso.
+                      </li>
+                      <li >
+                        Este modelo lleva a un completo 'auto-engaño'.
+                      </li>
+                      <li >
+                        Frustraciones del negocio al tener un grupo de
+                        gente trabajando durante meses sin ver, tocar y
+                        palpar lo que se está haciendo
+                      </li>
+                      <li >
+                        El cliente, muchas veces no sabe lo que quiere
+                        hasta que tiene algo con lo que <i>jugar</i>.
+                      </li>
+                      <li >
+                        Lágrimas y dolor.
+                      </li>
+                      <li>
+                        Equipos faraónicos para conseguir algo realmente
+                        modesto.
+                      </li>
+                    </ul>
+                    <ul>
+                      <li >El cliente está en la empresa.</li>
+                      <li >
+                        Muchos requerimientos pequeños.
+                      </li>
+                      <li >
+                        Muchos <i>inventos</i> y pruebas.
+                      </li>
+                      <li >
+                        Subidas continuas con cambios incesantes.
+                      </li>
+                    </ul>
+                  </aside>
+
+    			  <h1>
+                    ¿Por qué elegimos <i>'scrum'</i> descartando lo
+                    tradicional?
+                  </h1>
+                  <h3 class="fragment">
+                    Experiencia de proyectos pasados.
+                  </h3>
+                  <h3 class="fragment">
+                    Contexto y situación dentro de Habitissimo.
+                  </h3>
+                </section>
 
 				<section>
 					<h1>Service architecture</h1>
