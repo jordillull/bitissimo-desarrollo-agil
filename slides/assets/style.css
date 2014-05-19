@@ -14,10 +14,16 @@
   box-shadow: none;
   background: transparent;
 }
+.reveal section p.diagram-title {
+  font-size: 1.5em; 
+  margin: -85px 0 0;
+}
+
 .reveal section img.diagram {
   border-radius: 20px;
   background: #fff;
   padding: 20px;
+  height: 600px;
 }
 .reveal section ul {
   margin-top: 2em;

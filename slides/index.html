@@ -1,49 +1,49 @@
 <!doctype html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
 
-		<title>Herramientas de desarrollo ágil</title>
+        <title>Herramientas de desarrollo ágil</title>
 
-		<meta name="author" content="Jordi Llull, Lluís Ballester, Hugo Chinchilla">
+        <meta name="author" content="Jordi Llull, Lluís Ballester, Hugo Chinchilla">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
-		<link rel="stylesheet" href="assets/style.css">
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/default.css" id="theme">
+        <link rel="stylesheet" href="assets/style.css">
 
-		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-		<script>
-			if( window.location.search.match( /print-pdf/gi ) ) {
-				var link = document.createElement( 'link' );
-				link.rel = 'stylesheet';
-				link.type = 'text/css';
-				link.href = 'css/print/pdf.css';
-				document.getElementsByTagName( 'head' )[0].appendChild( link );
-			}
-		</script>
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
 
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
 
-	<body>
+    <body>
 
-		<div class="reveal">
+        <div class="reveal">
 
-			<div class="slides">
-			<!--
-				<section>
-					<pre><code data-trim contenteditable>
+            <div class="slides">
+            <!--
+                <section>
+                    <pre><code data-trim contenteditable>
 function linkify( selector ) {
   if( supports3DTransforms ) {
 
@@ -58,16 +58,16 @@ function linkify( selector ) {
     }
   }
 }
-					</code></pre>
-				</section>
-				-->
+                    </code></pre>
+                </section>
+                -->
 
-				<section>
-					<h1>Herramientas de desarrollo ágil</h1>
-				</section>
+                <section>
+                    <h1>Herramientas de desarrollo ágil</h1>
+                </section>
 
                 <section data-state="intro">
-				  <aside class="notes">
+                  <aside class="notes">
                     <ul>
                       <li> Un programador inicialmente.</li>
                       <li> Dos programadores después.</li>
@@ -89,7 +89,7 @@ function linkify( selector ) {
                   </aside>
                   <h1>Introducción</h1>
                   <h3 class="fragment">Habitissimo fue creada con lo mínimo necesario</h3>
-				</section>
+                </section>
 
                 <section data-state="intro">
                   <aside class="notes">
@@ -103,7 +103,7 @@ function linkify( selector ) {
                       </li>
                     </ul>
                   </aside>
-				  <h1>Evolución</h1>
+                  <h1>Evolución</h1>
                     <p class="fragment">
                       &#9786;&#9787;&#9787;&#9787;&#9787;
                     </p>
@@ -158,7 +158,7 @@ function linkify( selector ) {
                   </ul>
 
                  </aside>
-    			  <h1>¿Cómo se desarrollaba?</h1>
+                  <h1>¿Cómo se desarrollaba?</h1>
                   <h3>Desarrollos = "Agujeros Negros"</h3>
 
                   <table>
@@ -205,7 +205,7 @@ function linkify( selector ) {
                       </li>
                     </ul>
                   </aside>
-    			  <h1>Nos vimos obligados a cambiar.</h1>
+                  <h1>Nos vimos obligados a cambiar.</h1>
                   <ul>
                     <li class="fragment">
                         <strong>Ágil</strong>: capacidad de
@@ -249,7 +249,7 @@ function linkify( selector ) {
                       </li>
                     </ul>
                   </aside>
-    			  <h1>Metodologías tradicionales:</h1>
+                  <h1>Metodologías tradicionales:</h1>
                     <p class="fragment">
                       Metodologías basadas en el SDLC.
                     </p>
@@ -302,7 +302,7 @@ function linkify( selector ) {
                     </ul>
                   </aside>
 
-    			  <h1>
+                  <h1>
                     ¿Por qué elegimos <i>'scrum'</i> descartando lo
                     tradicional?
                   </h1>
@@ -314,21 +314,55 @@ function linkify( selector ) {
                   </h3>
                 </section>
 
-				<section data-state="arch">
-					<h1>MVC</h1>
-        </section>
+                <section data-state="arch">
+                    <h1>Arquitectura ágil</h1> 
+                    <aside class="notes">
+                        <ul>
+                            <li>Scrum = como organizamos nuestro trabajo. Arquitectura = cómo organizamos el fruto del trabajo (código)</li>
+                            <li>Hemos tenido que adaptar la aplicación para el desarrollo ágil.</li>
+                            <li>Seguimos adaptandolo y queremos ofrecer un puesto en prácticas para que alguien nos heche una mano y disfrute</li>
+                            <li style="margin-top:15px">Antes de empezar. ¿Cómo se programa una web? Hablar de frameworks y MVC</li>
+                        </ul>                        
+                    </aside>
+                </section>
 
-				<section data-state="arch">
-					<img src="assets/img/mvc.png" class="diagram"/>
-				</section>
+                <section data-state="arch">
+                    <p class="diagram-title">MVC</p>
+                    <img src="assets/img/mvc.png" class="diagram"/> 
+                    
+                    <aside class="notes">
+                        <ul style="font-size: 0.8em">
+                            <li>MVC separa tres capas distintas</li>
+                            <ul>
+                                <li>El usuario hace una petición que es recogida por el controlador.</li>
+                                <li>El controlador gestiona la petición y, si es necesario, hace una o más consultas o modificaciones en el modelo</li>
+                                <li>El modelo recoge las peticiones del controlador y hace los cambios pertinentes en base de datos</li>
+                                <li>El controlador pasa los datos necesarios a la vista</li>
+                                <li>La vista pinta en bonito los datos recibidos del controlador</li>
+                            </ul>
+                            <li>¿Dónde está la chica/lógica de aplicación/lógica de negocio?</li>
+                        </ul>                        
+                    </aside>
+                </section>
 
-				<section data-background="assets/img/spaghetti.jpg">
-          <span>&nbsp;</span>
-				</section>
+                <section data-state="arch">
+                        <p class="diagram-title">ORM</p>
+                        <img src="assets/img/orm.png" class="diagram"/>
+                </section>
 
-				<section data-state="arch">
-					<img src="assets/img/mvc_service.png" class="diagram"/>
-				</section>
+                <section data-background="assets/img/spaghetti.jpg">
+                  <span>&nbsp;</span>
+                </section>
+
+                <section data-state="arch">
+                    <img src="assets/img/mvc_service.png" class="diagram"/>
+                </section>
+
+                <section data-state="arch">
+                        <p class="diagram-title">Entidades</p>
+                        <img src="assets/img/entities.png" class="diagram"/>
+                </section> 
+
 
                 <section data-state="arch">
                   <blockquote>
@@ -338,21 +372,21 @@ function linkify( selector ) {
                 </section>
 
                 <section data-state="arch">
-					<h1>Tests</h1>
+                    <h1>Tests</h1>
                 </section>
 
-				<section data-state="arch">
-					<img src="assets/img/mvc_service_test.png" class="noborder" />
-				</section>
+                <section data-state="arch">
+                    <img src="assets/img/mvc_service_test.png" class="diagram" />
+                </section>
 
                 <section data-state="arch">
-					<h1>Los datos</h1>
-					<ul>
-						<li class="fragment">Un 30% más de tiempo en nuevos desarrollos</li>
-						<li class="fragment">16.800 líneas de código escritas</li>
+                    <h1>Los datos</h1>
+                    <ul>
+                        <li class="fragment">Un 30% más de tiempo en nuevos desarrollos</li>
+                        <li class="fragment">16.800 líneas de código escritas</li>
                         <ul style="margin-top: 10px;">
-						  <li class="fragment">11.500 líneas de lógica</li>
-						  <li class="fragment">5.300 líneas de test (45%)</li>
+                          <li class="fragment">11.500 líneas de lógica</li>
+                          <li class="fragment">5.300 líneas de test (45%)</li>
                         </ul>
                     </ul>
                 </section>
@@ -365,66 +399,66 @@ function linkify( selector ) {
                 </section>
 
 
-				<section data-state="logo">
-					<img src="assets/img/git-color.png" height="300" class="noborder" />
-				</section>
+                <section data-state="logo">
+                    <img src="assets/img/git-color.png" height="300" class="noborder" />
+                </section>
 
-				<section data-state="git">
-					<h2>Sistema de control de<br/> versiones <span class="fragment">DISTRIBUIDO</span></h2>
-					<ul>
-						<li class="fragment">Cada desarrollador tiene una copia completa del repositosio</li>
-						<li class="fragment">Puedes trabajar offline</li>
-						<li class="fragment">Ridiculamente rápido</li>
-						<li class="fragment">Sabe resolver conflictos mejor que tu</li>
-					</ul>
-				</section>
+                <section data-state="git">
+                    <h2>Sistema de control de<br/> versiones <span class="fragment">DISTRIBUIDO</span></h2>
+                    <ul>
+                        <li class="fragment">Cada desarrollador tiene una copia completa del repositosio</li>
+                        <li class="fragment">Puedes trabajar offline</li>
+                        <li class="fragment">Ridiculamente rápido</li>
+                        <li class="fragment">Sabe resolver conflictos mejor que tu</li>
+                    </ul>
+                </section>
 
-				<section data-state="git">
-					<h2>Git es sencillo</h2>
-					<h3 class="fragment">a pesar de las apariencias</h3>
-				</section>
+                <section data-state="git">
+                    <h2>Git es sencillo</h2>
+                    <h3 class="fragment">a pesar de las apariencias</h3>
+                </section>
 
-				<section data-state="git">
-					<h3>Puedes aprender lo básico en 15 minutos</h3>
-					<iframe src="https://try.github.io/" width="100%" height="400"></iframe>
-				</section>
+                <section data-state="git">
+                    <h3>Puedes aprender lo básico en 15 minutos</h3>
+                    <iframe src="https://try.github.io/" width="100%" height="400"></iframe>
+                </section>
 
-				<section data-state="git">
-					<h3>¿Que hace diferente a Git?</h3>
-					<ul>
-						<li class="fragment">Diferentes workflows para diferentes necesidades</li>
-						<li class="fragment">Tener muchas ramas es "barato"</li>
-						<li class="fragment"><code>git stash</code></li>
-						<li class="fragment"><code>git bisect</code></li>
-					</ul>
-				</section>
+                <section data-state="git">
+                    <h3>¿Que hace diferente a Git?</h3>
+                    <ul>
+                        <li class="fragment">Diferentes workflows para diferentes necesidades</li>
+                        <li class="fragment">Tener muchas ramas es "barato"</li>
+                        <li class="fragment"><code>git stash</code></li>
+                        <li class="fragment"><code>git bisect</code></li>
+                    </ul>
+                </section>
 
-				<section data-state="git">
-					<h1>Usa git para<br/><small><strike>casi</strike></small><br/>todo</h1>
+                <section data-state="git">
+                    <h1>Usa git para<br/><small><strike>casi</strike></small><br/>todo</h1>
 
-					<ul>
-						<li class="fragment">Documentación</li>
-						<li class="fragment">Requerimientos</li>
-						<li class="fragment">Archivos de configuración</li>
-						<li class="fragment">Incluso imágenes y sonidos</li>
-						<li class="fragment">Código (por supuesto)</li>
-					</ul>
-				</section>
+                    <ul>
+                        <li class="fragment">Documentación</li>
+                        <li class="fragment">Requerimientos</li>
+                        <li class="fragment">Archivos de configuración</li>
+                        <li class="fragment">Incluso imágenes y sonidos</li>
+                        <li class="fragment">Código (por supuesto)</li>
+                    </ul>
+                </section>
 
-				<section data-state="git">
-					<h2>Porque git elimina los problemas de comunicación</h2>
-					<ul>
-						<li class="fragment">¿Alguien ha cambiado el documento de requerimientos?</li>
-						<li class="fragment">¿Esto siempre ha estado asi?</li>
-						<li class="fragment">¿Quien ha roto esto?</li>
-					</ul>
-					<p class="fragment">Git nos permite que cada cambio quede registrado y firmado</p>
-				</section>
+                <section data-state="git">
+                    <h2>Porque git elimina los problemas de comunicación</h2>
+                    <ul>
+                        <li class="fragment">¿Alguien ha cambiado el documento de requerimientos?</li>
+                        <li class="fragment">¿Esto siempre ha estado asi?</li>
+                        <li class="fragment">¿Quien ha roto esto?</li>
+                    </ul>
+                    <p class="fragment">Git nos permite que cada cambio quede registrado y firmado</p>
+                </section>
 
-				<section data-state="git">
-					<h1>Caso práctico</h1>
-					<p>Cómo Habitissimo hace uso de Git</p>
-				</section>
+                <section data-state="git">
+                    <h1>Caso práctico</h1>
+                    <p>Cómo Habitissimo hace uso de Git</p>
+                </section>
 
         <section data-state="git">
           <h2>2 ramas principales</h2>
@@ -434,14 +468,14 @@ function linkify( selector ) {
           </dl>
         </section>
 
-				<section data-state="git">
-					<h2>&infin; ramas de desarrollo</h2>
-					<aside class="notes">
-						<p>Por cada ticket que resolvemos creamos una rama.</p>
-						<p>Esto permite que cualquier miembro del equipo pueda acceder a los cambios de forma
-						aislada, previsualizar los cambios y hacer los suyos propios.</p>
-					</aside>
-				</section>
+                <section data-state="git">
+                    <h2>&infin; ramas de desarrollo</h2>
+                    <aside class="notes">
+                        <p>Por cada ticket que resolvemos creamos una rama.</p>
+                        <p>Esto permite que cualquier miembro del equipo pueda acceder a los cambios de forma
+                        aislada, previsualizar los cambios y hacer los suyos propios.</p>
+                    </aside>
+                </section>
 
         <section data-state="git">
           <h2>1 rama de Sprint</h2>
@@ -451,62 +485,62 @@ function linkify( selector ) {
           </aside>
         </section>
 
-				<section data-state="logo">
-					<img src="assets/img/vagrant.logo.png" height="300" class="noborder" />
-				</section>
+                <section data-state="logo">
+                    <img src="assets/img/vagrant.logo.png" height="300" class="noborder" />
+                </section>
 
-				<section data-state="vagrant">
-					<h3>¿Que es?</h3>
-					<p>Vagrant es una herramienta para automatizar la creacion y el uso de máquinas virtuales</p>
-				</section>
+                <section data-state="vagrant">
+                    <h3>¿Que es?</h3>
+                    <p>Vagrant es una herramienta para automatizar la creacion y el uso de máquinas virtuales</p>
+                </section>
 
-				<section data-state="vagrant">
-					<h2>
-						¿Por qué trabajar con máquinas virtuales
-						<span class="fragment">si estas son pesadas</span>
-						<span class="fragment">, lentas</span>
-						<span class="fragment">y ocupan mucho espacio</span>
-						?</h2>
-				</section>
+                <section data-state="vagrant">
+                    <h2>
+                        ¿Por qué trabajar con máquinas virtuales
+                        <span class="fragment">si estas son pesadas</span>
+                        <span class="fragment">, lentas</span>
+                        <span class="fragment">y ocupan mucho espacio</span>
+                        ?</h2>
+                </section>
 
-				<section data-state="vagrant">
-					<h2>Es verdad, pero tambien solucionan otros problemas</h2>
-					<ul>
-						<li class="fragment">Facilitan la portabilidad</li>
-						<li class="fragment">Homogeniza el entorno de desarrollo</li>
-						<li class="fragment">Independencia del hardware</li>
-					</ul>
-				</section>
+                <section data-state="vagrant">
+                    <h2>Es verdad, pero tambien solucionan otros problemas</h2>
+                    <ul>
+                        <li class="fragment">Facilitan la portabilidad</li>
+                        <li class="fragment">Homogeniza el entorno de desarrollo</li>
+                        <li class="fragment">Independencia del hardware</li>
+                    </ul>
+                </section>
 
-				<section data-state="vagrant">
-					<h2>Además</h2>
-					<h3>vamos a usar distribuciones de servidor</h3>
-					<ul>
-						<li class="fragment">sin entorno gráfico (más ligeras)</li>
-						<li class="fragment">arrancan rápido</li>
-						<li class="fragment">ejecutan servicios mínimos</li>
-					</ul>
+                <section data-state="vagrant">
+                    <h2>Además</h2>
+                    <h3>vamos a usar distribuciones de servidor</h3>
+                    <ul>
+                        <li class="fragment">sin entorno gráfico (más ligeras)</li>
+                        <li class="fragment">arrancan rápido</li>
+                        <li class="fragment">ejecutan servicios mínimos</li>
+                    </ul>
 
-					<p class="fragment">Despues de todo, no son tan pesadas como parecía</p>
-				</section>
+                    <p class="fragment">Despues de todo, no son tan pesadas como parecía</p>
+                </section>
 
-				<section data-state="vagrant">
-					<h3>¿Por qué es mejor que VirtualBox o otras alternativas?</h3>
-					<p>Vagrant utiliza VirtualBox para crear las máquinas virtuales</p>
-					<p>Simplifica el uso y facilita la portabilidad</p>
-				</section>
+                <section data-state="vagrant">
+                    <h3>¿Por qué es mejor que VirtualBox o otras alternativas?</h3>
+                    <p>Vagrant utiliza VirtualBox para crear las máquinas virtuales</p>
+                    <p>Simplifica el uso y facilita la portabilidad</p>
+                </section>
 
-				<section data-state="vagrant">
-					<h2>No compartimos la imagen de la máquina</h2>
-					<h3 class="fragment">Compartimos la descripción de la máquina</h3>
-				</section>
+                <section data-state="vagrant">
+                    <h2>No compartimos la imagen de la máquina</h2>
+                    <h3 class="fragment">Compartimos la descripción de la máquina</h3>
+                </section>
 
-				<section>
-					<section data-state="vagrant">
-						<h1>Vagrantfile</h1>
-						<p>Receta que describe la máquina, su sistema operativo, carpetas compartidas, mapeo de puertos...</p>
+                <section>
+                    <section data-state="vagrant">
+                        <h1>Vagrantfile</h1>
+                        <p>Receta que describe la máquina, su sistema operativo, carpetas compartidas, mapeo de puertos...</p>
 
-						<pre class="fragment"><code data-trim contenteditable>
+                        <pre class="fragment"><code data-trim contenteditable>
 Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/trusty64"
 
@@ -517,12 +551,12 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "shell", path: "install.sh"
 end
-						</code></pre>
+                        </code></pre>
 
-					</section>
+                    </section>
 
-					<section data-state="vagrant">
-						<pre><code data-trim contenteditable>
+                    <section data-state="vagrant">
+                        <pre><code data-trim contenteditable>
 #!/bin/sh
 sudo apt-get update
 sudo apt-get install -y nginx
@@ -540,34 +574,34 @@ server {
 EOF
 
 sudo service nginx restart
-						</code></pre>
-					</section>
-				</section>
+                        </code></pre>
+                    </section>
+                </section>
 
-				<section data-state="vagrant" data-transition="none">
-					<h1>Pero yo no tengo ni idea de sistemas</h1>
-				</section>
+                <section data-state="vagrant" data-transition="none">
+                    <h1>Pero yo no tengo ni idea de sistemas</h1>
+                </section>
 
-				<section data-state="vagrant" data-transition="none">
-					<h1>Pero yo no tengo ni idea de Linux</h1>
-				</section>
+                <section data-state="vagrant" data-transition="none">
+                    <h1>Pero yo no tengo ni idea de Linux</h1>
+                </section>
 
-				<section data-state="vagrant" data-transition="none">
-					<h1>Pero yo no tengo ni idea de ...</h1>
-				</section>
+                <section data-state="vagrant" data-transition="none">
+                    <h1>Pero yo no tengo ni idea de ...</h1>
+                </section>
 
-				<section>
-					<section data-state="vagrant">
-						<h3>Vagrant oculta los detalles que no necesitas conocer</h3>
-						<pre><code data-trim contenteditable>
+                <section>
+                    <section data-state="vagrant">
+                        <h3>Vagrant oculta los detalles que no necesitas conocer</h3>
+                        <pre><code data-trim contenteditable>
 $ vagrant up
-						</code></pre>
+                        </code></pre>
 
-						<p>Cuando tienes un Vagrantfile, este es el único comando que necesitas saber</p>
-					</section>
+                        <p>Cuando tienes un Vagrantfile, este es el único comando que necesitas saber</p>
+                    </section>
 
-					<section data-state="vagrant">
-						<pre><code data-trim contenteditable>
+                    <section data-state="vagrant">
+                        <pre><code data-trim contenteditable>
 Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Checking if box 'ubuntu/trusty64' is up to date...
 ==> default: Clearing any previously set forwarded ports...
@@ -601,47 +635,47 @@ Bringing machine 'default' up with 'virtualbox' provider...
     default: /vagrant => /home/hchinchilla/projects/bitissimo-desarrollo-agil/server
 ==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
 ==> default: to force provisioning. Provisioners marked to run always will still run.
-						</code></pre>
-					</section>
-				</section>
+                        </code></pre>
+                    </section>
+                </section>
 
-				<section data-state="logo">
-					<h3>Fabric</h3>
-					<img src="assets/img/fabric.logo.png" height="300" class="noborder" />
-				</section>
+                <section data-state="logo">
+                    <h3>Fabric</h3>
+                    <img src="assets/img/fabric.logo.png" height="300" class="noborder" />
+                </section>
 
-				<section data-state="fabric">
-					<h3>¿Qué es?</h3>
-					<blockquote class="fragment">
-					Fabric is a Python library and command-line tool for streamlining the use of SSH for application deployment or systems administration tasks.
-					</blockquote>
-				</section>
+                <section data-state="fabric">
+                    <h3>¿Qué es?</h3>
+                    <blockquote class="fragment">
+                    Fabric is a Python library and command-line tool for streamlining the use of SSH for application deployment or systems administration tasks.
+                    </blockquote>
+                </section>
 
-				<section data-state="fabric">
-					<h2>Permite la automatización de una serie de pasos para realizar una tarea</h2>
-				</section>
+                <section data-state="fabric">
+                    <h2>Permite la automatización de una serie de pasos para realizar una tarea</h2>
+                </section>
 
-				<section data-state="fabric">
-					<h2>API</h2>
-					<p>La API es muy sencilla, destacan 3 métodos</p>
-					<ul>
-						<li class="fragment">cd</li>
-						<li class="fragment">run</li>
-						<li class="fragment">sudo</li>
-					</ul>
-				</section>
+                <section data-state="fabric">
+                    <h2>API</h2>
+                    <p>La API es muy sencilla, destacan 3 métodos</p>
+                    <ul>
+                        <li class="fragment">cd</li>
+                        <li class="fragment">run</li>
+                        <li class="fragment">sudo</li>
+                    </ul>
+                </section>
 
-				<section data-state="fabric">
-					<h2>Ejemplo sencillo</h2>
-					<pre><code data-trim contenteditable>
+                <section data-state="fabric">
+                    <h2>Ejemplo sencillo</h2>
+                    <pre><code data-trim contenteditable>
 # fabfile.py
 from fabric.api import run
 
 def host_type():
     run('uname -s')
-					</code></pre>
+                    </code></pre>
 
-					<pre><code data-trim contenteditable>
+                    <pre><code data-trim contenteditable>
 $ fab -H localhost,linuxbox host_type
 [localhost] run: uname -s
 [localhost] out: Darwin
@@ -651,32 +685,32 @@ $ fab -H localhost,linuxbox host_type
 Done.
 Disconnecting from localhost... done.
 Disconnecting from linuxbox... done.
-					</code></pre>
-				</section>
+                    </code></pre>
+                </section>
 
-				<section data-state="fabric">
-					<h2>Ejemplo del mundo real&trade;</h2>
-					<p>Vamos a diseñar un proceso de deploy basado en git</p>
-				</section>
+                <section data-state="fabric">
+                    <h2>Ejemplo del mundo real&trade;</h2>
+                    <p>Vamos a diseñar un proceso de deploy basado en git</p>
+                </section>
 
-				<section data-state="fabric">
-					<h2>Requerimientos</h2>
-					<ul>
-						<li class="fragment">Cualquier desarrollador tiene que ser capaz de usarlo</li>
-						<li class="fragment">Debe permitir revertir a la versión anterior si hay problemas</li>
-					</ul>
-					<p class="fragment">¿Pare complicado?</p>
-				</section>
+                <section data-state="fabric">
+                    <h2>Requerimientos</h2>
+                    <ul>
+                        <li class="fragment">Cualquier desarrollador tiene que ser capaz de usarlo</li>
+                        <li class="fragment">Debe permitir revertir a la versión anterior si hay problemas</li>
+                    </ul>
+                    <p class="fragment">¿Pare complicado?</p>
+                </section>
 
-				<section>
-					<section data-state="fabric">
-						<h2>Diseño</h2>
-						<p class="left">Tendremos un directorio en <code class="path">/opt/site</code> donde contendremos todo lo relativo a la aplicación.</p>
-						<p class="left">En ese directorio, contendremos el repositorio y una carpeta con las diferentes versiones.</p>
-						<p class="left">También usaremos enlaces simbólicos como "punteros" a las versiones contenidas en <code class="path">releases</code>.</p>
-					</section>
-					<section data-state="fabric">
-						<pre><code data-trim>
+                <section>
+                    <section data-state="fabric">
+                        <h2>Diseño</h2>
+                        <p class="left">Tendremos un directorio en <code class="path">/opt/site</code> donde contendremos todo lo relativo a la aplicación.</p>
+                        <p class="left">En ese directorio, contendremos el repositorio y una carpeta con las diferentes versiones.</p>
+                        <p class="left">También usaremos enlaces simbólicos como "punteros" a las versiones contenidas en <code class="path">releases</code>.</p>
+                    </section>
+                    <section data-state="fabric">
+                        <pre><code data-trim>
 #                             # /opt/site
 # git repository              #   git/
 # will contain deploys        #   releases/
@@ -684,17 +718,17 @@ Disconnecting from linuxbox... done.
 # latest relase               #     2015-05-16-21.10.54
 # points to current release   #   current
 # points to previous release  #   previous
-						</code></pre>
-					</section>
-				</section>
+                        </code></pre>
+                    </section>
+                </section>
 
 				<section data-state="fabric">
 					<h2>Esto está hecho</h2>
 					<h3 class="fragment">En 20 lineas de código</h3>
 				</section>
 
-				<section data-state="fabric">
-					<pre><code data-trim>
+                <section data-state="fabric">
+                    <pre><code data-trim>
 @task
 def deploy():
     now = datetime.datetime.now()
@@ -720,45 +754,45 @@ def deploy():
 def rollback():
     with cd("/opt/site"):
         run("rm current &amp;&amp; mv previous current")
-					</code></pre>
-				</section>
+                    </code></pre>
+                </section>
 
 
-			</div>
-		</div>
+            </div>
+        </div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
 
-		<script>
+        <script>
 
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
 
-				theme: Reveal.getQueryHash().theme || 'solarized', // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+                theme: Reveal.getQueryHash().theme || 'solarized', // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
-				// Parallax scrolling
-				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-				// parallaxBackgroundSize: '2100px 900px',
+                // Parallax scrolling
+                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+                // parallaxBackgroundSize: '2100px 900px',
 
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
 
-		</script>
+        </script>
 
-	</body>
+    </body>
 </html>
