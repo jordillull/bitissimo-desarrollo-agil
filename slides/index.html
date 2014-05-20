@@ -329,7 +329,7 @@ function linkify( selector ) {
                     <img src="assets/img/mvc.png" class="diagram"/>
 
                     <aside class="notes">
-                        <ul style="font-size: 0.8em">
+                        <ul style="font-size: 0.7em">
                             <li>MVC separa tres capas distintas</li>
                             <ul>
                                 <li>El usuario hace una petición que es recogida por el controlador.</li>
@@ -350,9 +350,7 @@ function linkify( selector ) {
                         <ul style="font-size: 0.6em">
                             <li>Object-relational mapping: nos permite gestionar la base de dates con objetos del lenguaje de programación</li>
                             <ul>
-                                <li>Una tabla = una clase</li>
-                                <li>Atributos = columnas.</li>
-                                <li>Además métodos save(), get() etc.</li>
+                                <li>Una tabla = una clase. Atributos = columnas.  Además métodos save(), get() etc.</li>
                             </ul>
                             <li>Peligros</li>
                             <ul>
@@ -414,13 +412,15 @@ function linkify( selector ) {
                 <section data-state="arch">
                     <p class="diagram-title">Contrato de entrada y contrato de salida</p>
                     <img src="assets/img/service_contracts.png" class="diagram"/>
-                    <aside class="notes">
+                    <aside class="notes"> 
+                        <div style="font-size:0.8em">
                         Todo servicio define dos contratos
                         <ul>
                             <li>Contrato de entrada: ¿Cómo se debe llamar al servicio? Para cada posible parámetro de entrada se define su tipo y una serie de restricciones. Esto se implementa con una función que devuelve si el parámetro es correcto o no. Si no es correcto se lanza una excepción.</li>
                             <li>Contrato de salida: ¿Qué va a devolver el servicio? Nunca debería fallar, si falla hay un bug en el código</li>
                             <li>Los contratos suponen una importante fuente de documentación. Es lo primero que se escribe. En base a los contratos todo el mundo puede empezar a desarrollar aunque no esté el servicio implementado todavía.</li>
                         </ul>
+                        </div>
                     </aside>
                 </section>
 
@@ -428,7 +428,7 @@ function linkify( selector ) {
                     <p class="diagram-title">Entidades</p>
                     <img src="assets/img/entities.png" class="diagram"/>
                     <aside class="notes">
-                        <ul style="font-size: 0.8em">
+                        <ul style="font-size: 0.7em">
                             <li>Una entidad es un objeto con un sentido <em>completo</em> para la aplicación y completamente abastraido de la implementación de la base de datos</li>
                             <li>Donde antes teníamos un profesor con dos datos y una foreign key para ir a buscar el resto de datos a otro objeto ahora tenemos una única entidad</li>
                             <li>En el ejemplo la entidad tiene sus atributos propios y el de persona.</li>
@@ -441,7 +441,7 @@ function linkify( selector ) {
                 <section data-state="arch">
                     <h1>Tests</h1>
                     <aside class="notes">
-                        <ul style="font-size: 0.8em">
+                        <ul>
                             <li>Al tener completamente desacoplados los servicios éstos pueden ser llamados desde cualquier otro sitio. Y de hecho así se hace.</li>
                        </ul>
                     </aside>
@@ -452,15 +452,14 @@ function linkify( selector ) {
                     <aside class="notes">
                         <ul style="font-size:0.6em">
                             <li>Los tests son pequeños programas que, al ejecutarse, hacen una serie de llamadas al servicio y esperan cierta respuesta después de una llamada.</li>
-                            <li>Por ejemplo, el test del servicio de CrearEstudiante llamará al servicio con un nombre, un apellido y un DNI y esperará que se devuelva una entidad con ese nombre, ese apellido y ese DNI</li>
-                            <li>Además también llamará al servicio incumpliendo el contrato de entrada esperando que se lance la excepción pertinente.</li>
-                            <li>El test de un servicio debe hacer las suficientes llamadas para que se ejecute el servicio de todos los modos posibles</li>
+                            <li>Ejemplo: crearEstudiante.</li>
+                            <li>Además también llama incumpliendo contrato de entrada. Espera excepción.</li>
+                            <li>El test debe hacer que se ejecute el servicio de todos los modos posibles. Code coverage.</li>
                             <li>Hace tres años, cuando empezaba a programar profesionalmente, quería modificar un trozo de código aberrante e inmantenible. Cuando pregunte a mi jefa de proyecto me dijo: si funciona no lo toques. No era su culpa, era una política instaurada en la empresa: la gente tenía miedo al código.</li>
-                            <li>Es fácil tener miedo cuando se trabaja en módulos complicados con mucha lógica.</li>
-                            <li>Si hay miedo al código no se refactoriza, no se mantiene adecuadamente y se va a acumulando la mierda hasta que te desborda.</li>
+                            <li>Es fácil tener miedo cuando se trabaja en módulos complicados con mucha lógica. Ese miedo hace que no se refactorice el código y se vaya acumulando mierda.</li>
                             <li>Los tests nos permiten quitarnos el miedo al código</li>
                             <ul>
-                                <li>Cualquier pequeño cambio necesario en cualquier módulo se vuelve trivial. Se escriben nuevos tests, se realiza el cambio, pasa los test, listo para producción.</li>
+                                <li>Hacer un cambio se vuelve trivial. Se escriben nuevos tests, se realiza el cambio, pasa los test, listo para producción.</li>
                                 <li>Arreglar un bug es trivial. Se escribe el test para que falle. Se programa. Pasa el test. Listo para producción.</li>
                                 <li>Permite saber cuando se rompió algo =&gt; bisect</li>
                                 <li>SOBRETODO: por muy borrachos que fuésemos al escribir el código sabemos que no vamos a romper nada al subir a producción</li>
