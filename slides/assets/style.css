@@ -1,12 +1,13 @@
 .reveal section h1 {
   line-height: 1.3em;
+  margin-bottom: 0.5em;
 }
 .reveal section h2 {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   line-height: 1.3em;
 }
 .reveal section h3 {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   line-height: 1.3em;
 }
 .reveal section img.noborder {
@@ -26,8 +27,8 @@
   height: 600px;
 }
 .reveal section ul {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .reveal dl {
   clear: both;
@@ -91,6 +92,13 @@
   font-size: 3em;
 }
 
+.reveal img.author {
+  border-radius: 300px;
+}
+
+.reveal pre code {
+  max-height: 500px;
+}
 
 /*
 .intro .reveal .state-background {
