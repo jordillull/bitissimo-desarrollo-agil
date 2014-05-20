@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Examples:
+Usage:
 
     fab deploy
     fab rollback
@@ -8,29 +8,35 @@ Examples:
 
 from fabric.api import *
 from fabric.contrib import files
-from time import time
+import datetime
 
-env.user = 'www'
+env.user = 'vagrant'
+env.password = 'vagrant'
+env.hosts = '192.168.33.20'
 env.colorize_errors = True
 
 @task
 def deploy():
-    env.release = time.strftime('%Y%m%d%H%M%S')
+    now = datetime.datetime.now()
+    env.release = now.strftime('%Y-%m-%d-%H.%M.%S')
 
     with cd("/opt/site"):
-        run("mkdir -p releases/%(date)s" % env)
+        run("mkdir -p releases/%(release)s" % env)
 
-    with cd("/opt/site/repo"):
+    with cd("/opt/site/git"):
         run("git pull")
-        run("git export master | tar -x -C /opt/site/releases/%(date)s" % env)
+        run("git archive master | tar -x -C /opt/site/releases/%(release)s" % env)
 
     with cd("/opt/site"):
-        if files.exists("previous") run("rm previous")
-        if files.exists("current") run("cp -P current previous")
-        run("ln -sfn releases/%(date)s current" % env)
+        if files.exists("previous"): run("rm previous")
+        if files.exists("current"):
+            run("cp -P current previous")
+            run("ln -sfn releases/%(release)s current" % env)
+        else:
+            run("ln -s releases/%(release)s current" % env)
 
 @task
 def rollback():
-    with cd("/opt/site/releases"):
+    with cd("/opt/site"):
         run("rm current && mv previous current")
 

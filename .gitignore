@@ -1,2 +1,4 @@
+*.pyc
 .vagrant
-_site
+site/_site/*
+

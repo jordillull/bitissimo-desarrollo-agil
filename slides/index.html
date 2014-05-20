@@ -1,49 +1,49 @@
 <!doctype html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
 
-		<title>Herramientas de desarrollo ágil</title>
+        <title>Herramientas de desarrollo ágil</title>
 
-		<meta name="author" content="Jordi Llull, Lluís Ballester, Hugo Chinchilla">
+        <meta name="author" content="Jordi Llull, Lluís Ballester, Hugo Chinchilla">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
-		<link rel="stylesheet" href="assets/style.css">
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/default.css" id="theme">
+        <link rel="stylesheet" href="assets/style.css">
 
-		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-		<script>
-			if( window.location.search.match( /print-pdf/gi ) ) {
-				var link = document.createElement( 'link' );
-				link.rel = 'stylesheet';
-				link.type = 'text/css';
-				link.href = 'css/print/pdf.css';
-				document.getElementsByTagName( 'head' )[0].appendChild( link );
-			}
-		</script>
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
 
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
 
-	<body>
+    <body>
 
-		<div class="reveal">
+        <div class="reveal">
 
-			<div class="slides">
-			<!--
-				<section>
-					<pre><code data-trim contenteditable>
+            <div class="slides">
+            <!--
+                <section>
+                    <pre><code data-trim contenteditable>
 function linkify( selector ) {
   if( supports3DTransforms ) {
 
@@ -58,16 +58,17 @@ function linkify( selector ) {
     }
   }
 }
-					</code></pre>
-				</section>
-				-->
+                    </code></pre>
+                </section>
+                -->
 
-				<section>
-					<h1>Herramientas de desarrollo ágil</h1>
-				</section>
+                <section>
+                    <h1>Herramientas de desarrollo ágil</h1>
+                </section>
 
                 <section data-state="intro">
-				  <aside class="notes">
+                  <aside class="notes">
+                    <small>
                     <ul>
                       <li> Un programador inicialmente.</li>
                       <li> Dos programadores después.</li>
@@ -86,10 +87,11 @@ function linkify( selector ) {
                       intentan sobrevivir y sacar las cosas adelante a
                       cualquier precio.
                     </p>
+                    </small>
                   </aside>
                   <h1>Introducción</h1>
-                  <h3>Habitissimo fue creada con  lo mínimo necesario</h3>
-				</section>
+                  <h3 class="fragment">Habitissimo fue creada con lo mínimo necesario</h3>
+                </section>
 
                 <section data-state="intro">
                   <aside class="notes">
@@ -103,7 +105,7 @@ function linkify( selector ) {
                       </li>
                     </ul>
                   </aside>
-				  <h1>Evolución</h1>
+                  <h1>Evolución</h1>
                     <p class="fragment">
                       &#9786;&#9787;&#9787;&#9787;&#9787;
                     </p>
@@ -124,6 +126,7 @@ function linkify( selector ) {
 
                 <section data-state="intro">
                  <aside class="notes">
+                 <small>
                   <ul>
                     <li>
                        Modelo de desarrollo basado en <i>'tickets'</i>
@@ -135,9 +138,6 @@ function linkify( selector ) {
                       No se estimaba
                     </li>
                     <li>No se analizaban</li>
-                  </ul>
-                  <br/>
-                  <ul
                     <li>
                       No se sabía cuando estarían
                       acabados.
@@ -156,9 +156,9 @@ function linkify( selector ) {
                       como para suplir la demanda.
                     </li>
                   </ul>
-
+                 </small>
                  </aside>
-    			  <h1>¿Cómo se desarrollaba?</h1>
+                  <h1>¿Cómo se desarrollaba?</h1>
                   <h3>Desarrollos = "Agujeros Negros"</h3>
 
                   <table>
@@ -205,11 +205,11 @@ function linkify( selector ) {
                       </li>
                     </ul>
                   </aside>
-    			  <h1>Nos vimos obligados a cambiar.</h1>
+                  <h1>Nos vimos obligados a cambiar.</h1>
                   <ul>
                     <li class="fragment">
-                        <b><i>Ágil</i></b>: capacidad de
-                        reaccionar rápidamente ante situaciones de cambio.
+                      <b><i>Ágil</i></b>: capacidad de
+                      reaccionar rápidamente ante situaciones de cambio.
                     </li>
                     <li class="fragment">
                       Scrum.
@@ -226,6 +226,7 @@ function linkify( selector ) {
 
                 <section data-state="scrum">
                   <aside class="notes">
+                  <small>
                   <ul>
                     <li>
                       Tradicionalmente las metodologías de desarrollo
@@ -248,20 +249,29 @@ function linkify( selector ) {
                       débilmente tipados.
                       </li>
                     </ul>
+                    </small>
                   </aside>
     			  <h1>Metodologías tradicionales:</h1>
                   <p class="fragment">
                       Metodologías basadas en el <b>SDLC</b>.
-                    </p>
-                    <p class="fragment">
-                      <img src="assets/img/businessman.jpg" height="300" class="noborder"/>
-                    </p>
+                  </p>
+                  <p class="fragment">
+                    <img src="assets/img/businessman.jpg" height="300" class="noborder"/>
+                  </p>
+                </section>
+
+                <section data-state="scrum">
+                  <h1>
+                    ¿Por qué elegimos <i>'scrum'</i> descartando lo
+                    tradicional?
+                  </h1>
                 </section>
 
                 <section data-state="scrum">
                   <aside class="notes">
+                  <small>
                     <ul>
-                      <li >
+                      <li>
                         Planificaciones de 1 año y medio.
                       </li>
                       <li >
@@ -283,28 +293,38 @@ function linkify( selector ) {
                       <li >
                         Lágrimas y dolor.
                       </li>
+                    </ul>
+                    </small>
+                  </aside>
+
+                  <h1>
+                    Experiencia de proyectos pasados.
+                  </h1>
+                </section>
+
+                <section data-state="scrum">
+                  <aside class="notes">
+                    <small>
+                    <ul>
                       <li>
                         Equipos faraónicos para conseguir algo realmente
                         modesto:
-                        <p>3 devels: 1 desarrollando, 1 traducciones, 1
-                        despliegues, 3 testers, 1 analista, 1 project
-                        manager, 2 técnicos de sistemas y 6 meses</p>
+                          3 devels: 1 desarrollando, 1 traducciones, 1
+                          despliegues, 3 testers, 1 analista, 1 project
+                          manager, 2 técnicos de sistemas y 6 meses
                       </li>
                       <li>
                         Gran parte del software que se desarrolla no
                         sale de grandes firmas con capital a raudales.
                         No es comparable a otras ingenierías.
-                        <p>
+
                           Normalmente una agencia de viajes no
                           tiene los recursos para construir un puente,
                           una carretera o para sintetizar 1 tonelada de
                           ácido sulfúrico. Por la misma regla de tres no
                           puede implementar correctamente procesos
                           basados en la SDLC. (excepciones)
-                        </p>
                       </li>
-                    </ul>
-                    <ul>
                       <li >El cliente está en la empresa.</li>
                       <li >
                         Muchos requerimientos pequeños.
@@ -316,22 +336,17 @@ function linkify( selector ) {
                         Subidas continuas con cambios incesantes.
                       </li>
                     </ul>
+                    </small>
                   </aside>
 
-    			  <h1>
-                    ¿Por qué elegimos <i>'scrum'</i> descartando lo
-                    tradicional?
-                  </h1>
-                  <h3 class="fragment">
-                    Experiencia de proyectos pasados.
-                  </h3>
-                  <h3 class="fragment">
+                  <h1>
                     Contexto y situación dentro de Habitissimo.
-                  </h3>
+                  </h1>
                 </section>
 
-                <section data-state="scrum-explain">
+                <section data-state="scrum">
                   <aside class="notes">
+                    <small>
                     <ul>
                       <li>
                         Duración típica entre 2 y 4 semanas.
@@ -355,13 +370,15 @@ function linkify( selector ) {
                         dos y tres semanas suele ser más apropiado.
                       </li>
                     </ul>
+                    </small>
                   </aside>
      			  <h1><b><i>Sprints</i></b></h1>
                   <h3>Ciclos de desarrollo cortos</h3>
                 </section>
 
-                <section data-state="scrum-explain">
+                <section data-state="scrum">
                   <aside class="notes">
+                    <small>
                     <ul>
                       <li>
                         Los desarrollos a realizar en cada sprint se
@@ -389,6 +406,7 @@ function linkify( selector ) {
                         modelo/DB) suele dar buenos resultados.
                       </li>
                     </ul>
+                    </small>
                   </aside>
      			  <h1><b><i>Stories</i></b></h1>
                   <h3>
@@ -396,11 +414,11 @@ function linkify( selector ) {
                   </h3>
                 </section>
 
-                <section data-state="scrum-explain">
+                <section data-state="scrum">
                   <aside class="notes">
                     <ul>
                       <li>
-
+                        Explicar historia mala
                       </li>
                     </ul>
                   </aside>
@@ -445,239 +463,760 @@ function linkify( selector ) {
                   </ul>
                 </section>
 
-                <section data-state="intro">
+                <section data-state="scrum">
                   <aside class="notes">
+                    <small>
                     <ul>
                       <li>
                         Product owner: su responsabilidad es la de
-                        generar una lista de pr
+                        generar una lista de prioridades para el negocio
+                        a partir de las peticiones de los diferentes
+                        equipos.
+                      </li>
+                      <li>
+                        Responsables de diferentes equipos añaden sus
+                        necesidades a un sistema de 'tickets' tradional
+                        (redmine en nuestro caso).
+                      </li>
+                      <li>
+                        El PO los revisa y decide que es lo
+                        prioritario para el negocio
                       </li>
                     </ul>
+                    </small>
                   </aside>
-     			  <h1>¿Quienes son los protagonistas?</h1>
-                  <h3 class="fragment"> Product owner </h3>
-                  <h3 class="fragment"> Scrum master </h3>
+     			  <h2>¿Quiénes son los protagonistas?</h2>
+                  <h3>1. Product owner </h3>
+                  <img class="fragment noborder" src="assets/img/scrum_prioridades.png" />
                 </section>
 
-				<section data-state="arch">
-					<h1>MVC</h1>
+                <section data-state="scrum">
+                 <aside class="notes">
+                  <small>
+                    <ul>
+                      <li>
+                        Organiza, conduce y documenta la planificación y
+                        el curso de los sprints de desarrollo.
+                      </li>
+                      <li>
+                        Se asegura diariamente de que las cosas fluyan y
+                        reacciona a contratiempos reajustando las
+                        planificaciones si los dictan las
+                        circunstancias.
+                      </li>
+                      <li>
+                        Comunicación continua con el Product Owner
+                      </li>
+                    </ul>
+                  </small>
+                 </aside>
+                  <h2>¿Quiénes son los protagonistas?</h2>
+                  <h3>2. Scrum master </h3>
                 </section>
 
-				<section data-state="arch">
-					<img src="assets/img/mvc.png" class="noborder" />
-				</section>
+                <section data-state="scrum">
+                  <aside class="notes">
+                    <small>
+                    <ul>
+                      <li>
+                        De 3 a 6 es el óptimo
+                      </li>
+                      <li>
+                        Grupos heterogéneos con conocimientos en
+                        diferentes áreas, especialización (cada uno con
+                        lo que más le guste).
+                      </li>
+                      <li>
+                        Menos de 3: se puede pero no es ideal.
+                      </li>
+                      <li>
+                        Más de 6: problemas.
+                      </li>
+                    </ul>
+                    </small>
+                  </aside>
+     			  <h2>¿Quiénes son los protagonistas?</h2>
+                  <h3> 3. Equipo de desarrollo.</h3>
+                </section>
 
-				<section data-state="arch">
-					<img src="assets/img/spaghetti.jpg" class="noborder" />
-				</section>
+                <section data-state="scrum">
+                  <aside class="notes">
+                    <small>
+                    <ul>
+                      <li>
+                        Se realizan antes de empezar un sprint.
+                      </li>
+                      <li>
+                        El equipo segmenta cada 'story' en pequeñas
+                        tareas de entre 1h y 3 días (nuestra
+                        estrategia, no tiene porqué ser así en scrum).
+                      </li>
+                      <li>
+                        [Enseñar cartas] Es el equipo el que estima.
+                      </li>
+                      <li>
+                        Peso en estimación, aprendizaje, en caso de
+                        discordia...
+                      </li>
+                      <li>
+                        Se incluye a persona que puso la historia si es
+                        necesario [contra: Análisis no exhaustivo].
+                      </li>
+                    </ul>
+                    </small>
+                  </aside>
+     			  <h2>¿Cómo se lleva a cabo?</h2>
+                  <h3>1. Reuniones de planificación. </h3>
+                  <img class="fragment noborder"
+                       src="assets/img/estimacion_scrum.jpg" />
+                </section>
 
-				<section data-state="arch">
-					<img src="assets/img/mvc_service.png" class="noborder" />
-				</section>
+                <section data-state="scrum">
+                  <aside class="notes">
+                    <small>
+                    <ul>
+                      <li>
+                        Cada mañana reuniones de unos 20 mins, (4 por
+                        devel), todos en pié.
+                      </li>
+                      <li>
+                        Se contestan 3 preguntas, que hiciste ayer, que
+                        harás hoy, que problemas tienes para continuar
+                        [hablar de dinámica]
+                      </li>
+                      <li>
+                        Analógica, todas las subtareas del sprint
+                        segmentadas y distribuidas a personas
+                      </li>
+                      <li>
+                        Pizarra segmentada, por hacer, en curso,
+                        acabadas, interrupciones, bugs resueltos y
+                        backlog.
+                      </li>
+                      <li>
+                        Eliminamos la necesidad de usar un sistema de
+                        ticketing por parte del programador [explicar]
+                      </li>
+                    </ul>
+                    </small>
+                  </aside>
+     			  <h1></h1>
+     			  <h2>¿Cómo se lleva a cabo?</h2>
+                  <h3>2. Reuniones diarias.</h3>
+                  <img class="fragment noborder"
+                       src="assets/img/pizarra_scrum.jpg" />
+                </section>
+
+
+                 <section data-state="scrum">
+                  <aside class="notes">
+                    <small>
+                    <ul>
+                      <li>
+                        Al final de sprint se puede tener una imagen
+                        clara sobre la velocidad real del equipo.
+                      </li>
+                      <li>
+                        Mantiene el equipo informado y consciente
+                      </li>
+                      <li>
+                        Dinámica mantiene al equipo enfocado y activo,
+                        evita la procrastinación. (desarrollos de 1
+                        mes...)
+                      </li>
+                      <li> Permite cambios en runtime </li>
+                      <li> Ayuda a paralelizar desarrollos y conseguir
+                      esa 'agilidad'</li>
+                    </ul>
+                    </small>
+                  </aside>
+     			  <h2>Conclusiones</h2>
+                  <ul>
+                    <li class="fragment">Métricas</li>
+                    <li class="fragment">Información</li>
+                    <li class="fragment">Motivación</li>
+                  </ul>
+                </section>
+
+
+                <section data-state="arch">
+                    <h1>Arquitectura ágil</h1>
+                    <aside class="notes">
+                        <ul>
+                            <li>Scrum = como organizamos nuestro trabajo. Arquitectura = cómo organizamos el fruto del trabajo (código)</li>
+                            <li>Hemos tenido que adaptar la arquitectura para el desarrollo ágil.</li>
+                            <li>Seguimos adaptándolo y queremos ofrecer un puesto en prácticas para que alguien nos eche una mano y disfrute</li>
+                            <li style="margin-top:15px">Antes de empezar. ¿Cómo se programa una web? Hablar de frameworks y MVC</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-state="arch">
+                    <p class="diagram-title">MVC</p>
+                    <img src="assets/img/mvc.png" class="diagram"/>
+
+                    <aside class="notes">
+                        <ul style="font-size: 0.8em">
+                            <li>MVC separa tres capas distintas</li>
+                            <ul>
+                                <li>El usuario hace una petición que es recogida por el controlador.</li>
+                                <li>El controlador gestiona la petición y, si es necesario, hace una o más consultas o modificaciones en el modelo</li>
+                                <li>El modelo recoge las peticiones del controlador y hace los cambios pertinentes en base de datos</li>
+                                <li>El controlador pasa los datos necesarios a la vista</li>
+                                <li>La vista pinta en bonito los datos recibidos del controlador</li>
+                            </ul>
+                            <li>¿Dónde está la chica/lógica de aplicación/lógica de negocio? ¿Controlador, Modelo, vista?</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-state="arch">
+                    <p class="diagram-title">ORM</p>
+                    <img src="assets/img/orm.png" class="diagram"/>
+                    <aside class="notes">
+                        <ul style="font-size: 0.6em">
+                            <li>Object-relational mapping: nos permite gestionar la base de dates con objetos del lenguaje de programación</li>
+                            <ul>
+                                <li>Una tabla = una clase</li>
+                                <li>Atributos = columnas.</li>
+                                <li>Además métodos save(), get() etc.</li>
+                            </ul>
+                            <li>Peligros</li>
+                            <ul>
+                                <li>La BBDD es un detalle de impl. no tiene nada que ver con la aplicación</li>
+                                <li>Una Base de Datos normalizada puede no ser el modelo más cómodo sobre el que trabajar</li>
+                                <li>Al final para crear un estudiante tienes que crear un nuevo estudiante. Crear una nueva persona, guardarlo para poder obtener una ID autogenerada de base de datos, asignar esa ID de la persona al estudiante. Obtener un profesor de la base de datos, asignarselo como tutor al estudiante. Lo mismo para las aulas si las gestionas como una tabla distinta. Luego le vas a enviar el e-mail de confirmación, siempre y cuando no haya un registro ya con ese e-mail en cuyo caso habrías tirado una excepción porque no puede haber dos personas con el mismo e-mail.</li>
+                                <li>Todo esto lo vas a hacer en el controlador o quizás en el modelo si decides que queda mejor hacerlo en el modelo porque ya has metido tanta lógica inpropia del controlador en el controlador que ya no sabes donde meterlo. Eso si no te da por meter la en un form de los cuales no quiero ya ni hablar porque son una violación de todas las capas del MVC que no tendría que haber existido jamás.</li>
+                                <li>Total, que tras cuatro años desarrollando a lo cowboy acabas teniendo...</li>
+                            </ul>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="assets/img/spaghetti.jpg">
+                    <span>&nbsp;</span>
+                    <aside class="notes">
+                        <ul style="font-size: 0.8em">
+                            <li>Tras cuatro años de desarrollo un spaghetti que nadie quería mantener ni continuar</li>
+                            <li>Un spaghetti implica un efecto mariposa en el código, una pequeña modificación en un sitio y se rompe un módulo aparentemente no relacionado</li>
+                            <li>Teníamos claro que:</li>
+                            <ul>
+                                <li>No era un modelo <em>ágil</em></li>
+                                <li>El framework web tenía que ser un simple detalle de presentación</li>
+                                <li>El ORM no podía ser la única capa de abstracción.</li>
+                                <li>Conclusión: la base de datos y la web deben ser detalles anecdóticos y reemplazables</li>
+                            </ul>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-state="arch">
+                    <h1>Servicios al rescate</h1>
+                    <aside class="notes">
+                        <ul>
+                            <li>Un servicio es una unidad independiente con una funcionalidad clara de la aplicación. Por ejemplo: crear estudiante, obtener profesor sin alumnos, etc.</li>
+                            <li>Encapsula toda la lógica de aplicación que antes estaba desperdigada dios sabe dónde</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-state="arch">
+                    <img src="assets/img/mvc_service.png" class="diagram"/>
+                    <aside class="notes">
+                        <ul style="font-size: 0.8em">
+                            <li>Los servicios substituyen la capa de modelo.</li>
+                            <li>El controlador no sabe nada de la implementación de la base de datos o del servicio. Solo hace la llamada que requiera.</li>
+                            <li>Los servicios añaden una nueva interficie de comunicación: los contratos.</li>
+                        </ul>
+                    </aside>
+                </section>
 
                 <section data-state="arch">
                   <blockquote>
-                    <p class="quote">Strong static typing has really significant benefits</p>
-                    <p class="author"><img src="assets/img/carmack.jpg" alt="The amazing John Carmack" class="noborder round">John Carmack</p>
+                    <p class="quote fragment">"Strong static typing has really significant benefits"</p>
+                    <p class="author"><img src="assets/img/carmack.jpg" alt="The amazing John Carmack" class="noborder round"><a href="https://twitter.com/ID_AA_Carmack">John Carmack</a></p>
                   </blockquote>
                 </section>
 
                 <section data-state="arch">
-					<h1>Tests</h1>
+                    <p class="diagram-title">Contrato de entrada y contrato de salida</p>
+                    <img src="assets/img/service_contracts.png" class="diagram"/>
+                    <aside class="notes">
+                        Todo servicio define dos contratos
+                        <ul>
+                            <li>Contrato de entrada: ¿Cómo se debe llamar al servicio? Para cada posible parámetro de entrada se define su tipo y una serie de restricciones. Esto se implementa con una función que devuelve si el parámetro es correcto o no. Si no es correcto se lanza una excepción.</li>
+                            <li>Contrato de salida: ¿Qué va a devolver el servicio? Nunca debería fallar, si falla hay un bug en el código</li>
+                            <li>Los contratos suponen una importante fuente de documentación. Es lo primero que se escribe. En base a los contratos todo el mundo puede empezar a desarrollar aunque no esté el servicio implementado todavía.</li>
+                        </ul>
+                    </aside>
                 </section>
 
-				<section data-state="arch">
-					<img src="assets/img/mvc_service_test.png" class="noborder" />
-				</section>
-
                 <section data-state="arch">
-					<h1>Tests</h1>
+                    <p class="diagram-title">Entidades</p>
+                    <img src="assets/img/entities.png" class="diagram"/>
+                    <aside class="notes">
+                        <ul style="font-size: 0.8em">
+                            <li>Una entidad es un objeto con un sentido <em>completo</em> para la aplicación y completamente abastraido de la implementación de la base de datos</li>
+                            <li>Donde antes teníamos un profesor con dos datos y una foreign key para ir a buscar el resto de datos a otro objeto ahora tenemos una única entidad</li>
+                            <li>En el ejemplo la entidad tiene sus atributos propios y el de persona.</li>
+                            <li>Además puede tener, por ejemplo, una array con los ids o con el objeto completo de sus alumnos</li>
+                            <li>Los servicios pueden ocultar completamente detalles de implemetación irrelevantes o molestos. Por ejemplo, en nuestro caso tenemos tres tablas: categoría, subcategoría y subsubcategoría. Sin embargo, tenemos varios servicios que gestionan las categorías como si fuesen un árbol, ocultando así como se guarda luego en base de datos.</li>
+                        </ul>
+                    </aside>
                 </section>
 
                 <section data-state="arch">
-					<h1>Los datos</h1>
-					<ul>
-						<li class="fragment">Un 30% más de tiempo en nuevos desarrollos</li>
-						<li class="fragment">16.800 líneas de código escritas</li>
+                    <h1>Tests</h1>
+                    <aside class="notes">
+                        <ul style="font-size: 0.8em">
+                            <li>Al tener completamente desacoplados los servicios éstos pueden ser llamados desde cualquier otro sitio. Y de hecho así se hace.</li>
+                       </ul>
+                    </aside>
+                </section>
+
+                <section data-state="arch">
+                    <img src="assets/img/mvc_service_test.png" class="diagram" />
+                    <aside class="notes">
+                        <ul style="font-size:0.6em">
+                            <li>Los tests son pequeños programas que, al ejecutarse, hacen una serie de llamadas al servicio y esperan cierta respuesta después de una llamada.</li>
+                            <li>Por ejemplo, el test del servicio de CrearEstudiante llamará al servicio con un nombre, un apellido y un DNI y esperará que se devuelva una entidad con ese nombre, ese apellido y ese DNI</li>
+                            <li>Además también llamará al servicio incumpliendo el contrato de entrada esperando que se lance la excepción pertinente.</li>
+                            <li>El test de un servicio debe hacer las suficientes llamadas para que se ejecute el servicio de todos los modos posibles</li>
+                            <li>Hace tres años, cuando empezaba a programar profesionalmente, quería modificar un trozo de código aberrante e inmantenible. Cuando pregunte a mi jefa de proyecto me dijo: si funciona no lo toques. No era su culpa, era una política instaurada en la empresa: la gente tenía miedo al código.</li>
+                            <li>Es fácil tener miedo cuando se trabaja en módulos complicados con mucha lógica.</li>
+                            <li>Si hay miedo al código no se refactoriza, no se mantiene adecuadamente y se va a acumulando la mierda hasta que te desborda.</li>
+                            <li>Los tests nos permiten quitarnos el miedo al código</li>
+                            <ul>
+                                <li>Cualquier pequeño cambio necesario en cualquier módulo se vuelve trivial. Se escriben nuevos tests, se realiza el cambio, pasa los test, listo para producción.</li>
+                                <li>Arreglar un bug es trivial. Se escribe el test para que falle. Se programa. Pasa el test. Listo para producción.</li>
+                                <li>Permite saber cuando se rompió algo =&gt; bisect</li>
+                                <li>SOBRETODO: por muy borrachos que fuésemos al escribir el código sabemos que no vamos a romper nada al subir a producción</li>
+                            </ul>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-state="arch">
+                    <h1>Los datos</h1>
+                    <ul>
+                        <li class="fragment">Un 30% más de tiempo en nuevos desarrollos</li>
+                        <li class="fragment">16.800 líneas de código escritas</li>
                         <ul style="margin-top: 10px;">
-						  <li class="fragment">11.500 líneas de lógica</li>
-						  <li class="fragment">5.300 líneas de test (45%)</li>
+                          <li class="fragment">11.500 líneas de lógica</li>
+                          <li class="fragment">5.300 líneas de test (45%)</li>
                         </ul>
                     </ul>
+                    <aside class="notes">
+                        <ul style="font-size:0.8em">
+                            <li>Deuda técnica. No necesariamente mala, pero se paga y con intereses.</li>
+                            <li>¿Somos realmente más agiles ahora?</li>
+                            <li>Ágil != Rápido</li>
+                        </ul>
+                    </aside>
                 </section>
 
                 <section data-state="arch">
                   <blockquote>
-                    <p class="quote">Estábamos haciendo un 30% menos del trabajo necesario</p>
+                    <p class="quote">"Estábamos haciendo un 30% menos del trabajo necesario"</p>
                     <p class="author"><img src="assets/img/hugo.jpg" alt="Hugo Chinchilla saliendo muy guapo" class="noborder round">Hugo Chinchilla</p>
                   </blockquote>
                 </section>
 
 
-				<section data-state="git">
-					<!-- GIT -->
-					<img src="assets/img/git-color.png" height="300" class="noborder" />
-					<h3 class="fragment">La herramienta imprescindible</h3>
-				</section>
+                <section data-state="logo">
+                    <img src="assets/img/git-color.png" height="300" class="noborder" />
+                </section>
 
-				<section data-state="git">
-					<h2>Sistema de control de<br/> versiones <span class="fragment">DISTRIBUIDO</span></h2>
-					<ul>
-						<li class="fragment">Cada desarrollador tiene una copia completa del repositosio</li>
-						<li class="fragment">Puedes trabajar offline</li>
-						<li class="fragment">Ridiculamente rápido</li>
-						<li class="fragment">Sabe resolver conflictos mejor que tu</li>
-					</ul>
-				</section>
+                <section data-state="git">
+                    <h2>Sistema de control de<br/> versiones <span class="fragment">DISTRIBUIDO</span></h2>
+                    <ul>
+                        <li class="fragment">Cada desarrollador tiene una copia completa del repositosio</li>
+                        <li class="fragment">Puedes trabajar offline</li>
+                        <li class="fragment">Ridiculamente rápido</li>
+                        <li class="fragment">Sabe resolver conflictos mejor que tu</li>
+                    </ul>
+                </section>
 
-				<section data-state="git">
-					<h2>Git es sencillo</h2>
-					<h3 class="fragment">a pesar de las apariencias</h3>
-				</section>
+                <section data-state="git">
+                    <h2>Git es sencillo</h2>
+                    <h3 class="fragment">a pesar de las apariencias</h3>
+                </section>
 
-				<section data-state="git">
-					<h3>Puedes aprender lo básico en 15 minutos</h3>
-					<iframe src="https://try.github.io/" width="100%" height="400"></iframe>
-				</section>
+                <section data-state="git">
+                    <h3>Puedes aprender lo básico en 15 minutos</h3>
+                    <iframe src="https://try.github.io/" width="100%" height="400"></iframe>
+                </section>
 
-				<section data-state="git">
-					<h3>¿Que hace diferente a Git?</h3>
-					<ul>
-						<li class="fragment">Diferentes workflows para diferentes necesidades</li>
-						<li class="fragment">Tener muchas ramas es "barato"</li>
-						<li class="fragment"><code>git stash</code></li>
-						<li class="fragment"><code>git blame</code></li>
-						<li class="fragment"><code>git bisect</code></li>
-					</ul>
-				</section>
+                <section data-state="git">
+                    <h3>¿Que hace diferente a Git?</h3>
+                    <ul>
+                        <li class="fragment">Diferentes workflows para diferentes necesidades</li>
+                        <li class="fragment">Tener muchas ramas es "barato"</li>
+                        <li class="fragment"><code>git stash</code></li>
+                        <li class="fragment"><code>git bisect</code></li>
+                    </ul>
+                </section>
 
-				<section data-state="git">
-					<h1>Usa git para<br/><small><strike>casi</strike></small><br/>todo</h1>
+                <section data-state="git">
+                    <h1>Usa git para<br/><small><strike>casi</strike></small><br/>todo</h1>
 
-					<ul>
-						<li class="fragment">Documentación</li>
-						<li class="fragment">Requerimientos</li>
-						<li class="fragment">Archivos de configuración</li>
-						<li class="fragment">Incluso imágenes y sonidos</li>
-						<li class="fragment">Código (por supuesto)</li>
-					</ul>
-				</section>
+                    <ul>
+                        <li class="fragment">Documentación</li>
+                        <li class="fragment">Requerimientos</li>
+                        <li class="fragment">Archivos de configuración</li>
+                        <li class="fragment">Incluso imágenes y sonidos</li>
+                        <li class="fragment">Código (por supuesto)</li>
+                    </ul>
+                </section>
 
-				<section data-state="git">
-					<h2>Porque git elimina los problemas de comunicación</h2>
-					<ul>
-						<li class="fragment">¿Alguien ha cambiado el documento de requerimientos?</li>
-						<li class="fragment">¿Esto siempre ha estado asi?</li>
-						<li class="fragment">¿Quien ha roto esto?</li>
-					</ul>
-					<p class="fragment">Git nos permite que cada cambio quede registrado y firmado</p>
-				</section>
+                <section data-state="git">
+                    <h2>Porque git elimina los problemas de comunicación</h2>
+                    <ul>
+                        <li class="fragment">¿Alguien ha cambiado el documento de requerimientos?</li>
+                        <li class="fragment">¿Esto siempre ha estado asi?</li>
+                        <li class="fragment">¿Quien ha roto esto?</li>
+                    </ul>
+                    <p class="fragment">Git nos permite que cada cambio quede registrado y firmado</p>
+                </section>
 
-				<section data-state="git">
-					<h1>Caso práctico</h1>
-					<p>Cómo Habitissimo hace uso de Git</p>
-				</section>
+                <section data-state="git">
+                    <h1>Caso práctico</h1>
+                    <p>Cómo Habitissimo hace uso de Git</p>
+                </section>
 
-				<section data-state="git">
-					<h2>2 ramas principales</h2>
-					<dl>
-						<dt>master:</dt> <dd>siempre estable</dd>
-						<dt>develop:</dt> <dd>se cree estable, pero no ha sido probado en producción</dd>
-					</dl>
-				</section>
+        <section data-state="git">
+          <h2>2 ramas principales</h2>
+          <dl>
+            <dt>master:</dt> <dd>siempre estable</dd>
+            <dt>develop:</dt> <dd>se cree estable, pero no ha sido probado en producción</dd>
+          </dl>
+        </section>
 
-				<section data-state="git">
-					<h2>1 rama de Sprint</h2>
-					<aside class="notes">
-						<p>Por cada sprint creamos una rama donde todos vamos añadiendo bloques de trabajo.</p>
-						<p>Estos bloques son unidades completas que procuran no romper nada para no entorpecer al equipo</p>
-					</aside>
-				</section>
+                <section data-state="git">
+                    <h2>&infin; ramas de desarrollo</h2>
+                    <aside class="notes">
+                        <p>Por cada ticket que resolvemos creamos una rama.</p>
+                        <p>Esto permite que cualquier miembro del equipo pueda acceder a los cambios de forma
+                        aislada, previsualizar los cambios y hacer los suyos propios.</p>
+                    </aside>
+                </section>
 
-				<section data-state="git">
-					<h2>&infin; ramas de desarrollo</h2>
-					<aside class="notes">
-						<p>Por cada ticket que resolvemos creamos una rama.</p>
-						<p>Esto permite que cualquier miembro del equipo pueda acceder a los cambios de forma
-						aislada, previsualizar los cambios y hacer los suyos propios.</p>
-					</aside>
-				</section>
+        <section data-state="git">
+          <h2>1 rama de Sprint</h2>
+          <aside class="notes">
+            <p>Por cada sprint creamos una rama donde todos vamos añadiendo bloques de trabajo.</p>
+            <p>Estos bloques son unidades completas que procuran no romper nada para no entorpecer al equipo</p>
+          </aside>
+        </section>
 
-				<section data-state="vagrant">
-					<img src="assets/img/vagrant.logo.png" height="300" class="noborder" />
-				</section>
+                <section data-state="logo">
+                    <img src="assets/img/vagrant.logo.png" height="300" class="noborder" />
+                </section>
 
-				<section data-state="vagrant">
-					<h1>Entornos portables</h1>
-					<p>Vagrant permite que el esfuerzo de instalar y poner a punto un entorno de trabajo sea una tarea replicable.</p>
-				</section>
+                <section data-state="vagrant">
+                    <h3>¿Que es?</h3>
+                    <p>Vagrant es una herramienta para automatizar la creacion y el uso de máquinas virtuales</p>
+                </section>
 
-				<section data-state="vagrant">
-					<p>Inicialmente era un wrapper para VirtualBox</p>
-					<p>Actualmente soporta multiples "proveedores"</p>
-					<ul class="fragment">
-						<li>VirtualBox</li>
-						<li>VMware</li>
-						<li>Hyper-V (solo windows)</li>
-					</ul>
-				</section>
+                <section data-state="vagrant">
+                    <h2>
+                        ¿Por qué trabajar con máquinas virtuales
+                        <span class="fragment">si estas son pesadas</span>
+                        <span class="fragment">, lentas</span>
+                        <span class="fragment">y ocupan mucho espacio</span>
+                        ?</h2>
+                </section>
 
-				<section data-state="vagrant">
-					<pre><code data-trim contenteditable>
-$ vagrant init precise64
+                <section data-state="vagrant">
+                    <h2>Es verdad, pero tambien solucionan otros problemas</h2>
+                    <ul>
+                        <li class="fragment">Facilitan la portabilidad</li>
+                        <li class="fragment">Homogeniza el entorno de desarrollo</li>
+                        <li class="fragment">Independencia del hardware</li>
+                    </ul>
+                </section>
+
+                <section data-state="vagrant">
+                    <h2>Además</h2>
+                    <h3>vamos a usar distribuciones de servidor</h3>
+                    <ul>
+                        <li class="fragment">sin entorno gráfico (más ligeras)</li>
+                        <li class="fragment">arrancan rápido</li>
+                        <li class="fragment">ejecutan servicios mínimos</li>
+                    </ul>
+
+                    <p class="fragment">Despues de todo, no son tan pesadas como parecía</p>
+                </section>
+
+                <section data-state="vagrant">
+                    <h3>¿Por qué es mejor que VirtualBox o otras alternativas?</h3>
+                    <p>Vagrant utiliza VirtualBox para crear las máquinas virtuales</p>
+                    <p>Simplifica el uso y facilita la portabilidad</p>
+                </section>
+
+                <section data-state="vagrant">
+                    <h2>No compartimos la imagen de la máquina</h2>
+                    <h3 class="fragment">Compartimos la descripción de la máquina</h3>
+                </section>
+
+                <section>
+                    <section data-state="vagrant">
+                        <h1>Vagrantfile</h1>
+                        <p>Receta que describe la máquina, su sistema operativo, carpetas compartidas, mapeo de puertos...</p>
+
+                        <pre class="fragment"><code data-trim contenteditable>
+Vagrant.configure(2) do |config|
+  config.vm.box = "ubuntu/trusty64"
+
+  config.vm.network :private_network, ip: "192.168.33.10"
+  config.vm.network "forwarded_port", guest: 80, host: 8080, auto_correct: true
+
+  config.vm.synced_folder "../_site", "/site"
+
+  config.vm.provision "shell", path: "install.sh"
+end
+                        </code></pre>
+
+                    </section>
+
+                    <section data-state="vagrant">
+                        <pre><code data-trim contenteditable>
+#!/bin/sh
+sudo apt-get update
+sudo apt-get install -y nginx
+sudo rm /etc/nginx/sites-enabled/default
+sudo tee /etc/nginx/sites-enabled/site.conf &lt;&lt;EOF
+server {
+    listen 80;
+
+    root /site;
+
+    location / {
+      index  index.html index.htm;
+    }
+}
+EOF
+
+sudo service nginx restart
+                        </code></pre>
+                    </section>
+                </section>
+
+                <section data-state="vagrant" data-transition="none">
+                    <h1>Pero yo no tengo ni idea de sistemas</h1>
+                </section>
+
+                <section data-state="vagrant" data-transition="none">
+                    <h1>Pero yo no tengo ni idea de Linux</h1>
+                </section>
+
+                <section data-state="vagrant" data-transition="none">
+                    <h1>Pero yo no tengo ni idea de ...</h1>
+                </section>
+
+                <section>
+                    <section data-state="vagrant">
+                        <h3>Vagrant oculta los detalles que no necesitas conocer</h3>
+                        <pre><code data-trim contenteditable>
 $ vagrant up
-$ vagrant ssh
-					</code></pre>
+                        </code></pre>
 
-					<p>Acabamos de crear una máquina virtual usando Ubuntu precise 64bits.</p>
-					<p>Una vez hayamos configurado la máquina podemos compartirla con nuestros compañeros.</p>
-				</section>
+                        <p>Cuando tienes un Vagrantfile, este es el único comando que necesitas saber</p>
+                    </section>
+
+                    <section data-state="vagrant">
+                        <pre><code data-trim contenteditable>
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Checking if box 'ubuntu/trusty64' is up to date...
+==> default: Clearing any previously set forwarded ports...
+==> default: Clearing any previously set network interfaces...
+==> default: Preparing network interfaces based on configuration...
+    default: Adapter 1: nat
+    default: Adapter 2: hostonly
+==> default: Forwarding ports...
+    default: 80 => 8080 (adapter 1)
+    default: 22 => 2222 (adapter 1)
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+    default: SSH address: 127.0.0.1:2222
+    default: SSH username: vagrant
+    default: SSH auth method: private key
+    default: Warning: Connection timeout. Retrying...
+==> default: Machine booted and ready!
+==> default: Checking for guest additions in VM...
+    default: The guest additions on this VM do not match the installed version of
+    default: VirtualBox! In most cases this is fine, but in rare cases it can
+    default: prevent things such as shared folders from working properly. If you see
+    default: shared folder errors, please make sure the guest additions within the
+    default: virtual machine match the version of VirtualBox you have installed on
+    default: your host and reload your VM.
+    default:
+    default: Guest Additions Version: 4.3.10
+    default: VirtualBox Version: 4.2
+==> default: Configuring and enabling network interfaces...
+==> default: Mounting shared folders...
+    default: /site => /home/hchinchilla/projects/bitissimo-desarrollo-agil/site/_site
+    default: /vagrant => /home/hchinchilla/projects/bitissimo-desarrollo-agil/server
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> default: to force provisioning. Provisioners marked to run always will still run.
+                        </code></pre>
+                    </section>
+                </section>
+
+                <section data-state="logo">
+                    <h3>Fabric</h3>
+                    <img src="assets/img/fabric.logo.png" height="300" class="noborder" />
+                </section>
+
+                <section data-state="fabric">
+                    <h3>¿Qué es?</h3>
+                    <blockquote class="fragment">
+                    Fabric is a Python library and command-line tool for streamlining the use of SSH for application deployment or systems administration tasks.
+                    </blockquote>
+                </section>
+
+                <section data-state="fabric">
+                    <h2>Permite la automatización de una serie de pasos para realizar una tarea</h2>
+                </section>
+
+                <section data-state="fabric">
+                    <h2>API</h2>
+                    <p>La API es muy sencilla, destacan 3 métodos</p>
+                    <ul>
+                        <li class="fragment">cd</li>
+                        <li class="fragment">run</li>
+                        <li class="fragment">sudo</li>
+                    </ul>
+                </section>
+
+                <section data-state="fabric">
+                    <h2>Ejemplo sencillo</h2>
+                    <pre><code data-trim contenteditable>
+# fabfile.py
+from fabric.api import run
+
+def host_type():
+    run('uname -s')
+                    </code></pre>
+
+                    <pre><code data-trim contenteditable>
+$ fab -H localhost,linuxbox host_type
+[localhost] run: uname -s
+[localhost] out: Darwin
+[linuxbox] run: uname -s
+[linuxbox] out: Linux
+
+Done.
+Disconnecting from localhost... done.
+Disconnecting from linuxbox... done.
+                    </code></pre>
+                </section>
+
+                <section data-state="fabric">
+                    <h2>Ejemplo del mundo real&trade;</h2>
+                    <p>Vamos a diseñar un proceso de deploy basado en git</p>
+                </section>
+
+                <section data-state="fabric">
+                    <h2>Requerimientos</h2>
+                    <ul>
+                        <li class="fragment">Cualquier desarrollador tiene que ser capaz de usarlo</li>
+                        <li class="fragment">Debe permitir revertir a la versión anterior si hay problemas</li>
+                    </ul>
+                    <p class="fragment">¿Pare complicado?</p>
+                </section>
+
+                <section>
+                    <section data-state="fabric">
+                        <h2>Diseño</h2>
+                        <p class="left">Tendremos un directorio en <code class="path">/opt/site</code> donde contendremos todo lo relativo a la aplicación.</p>
+                        <p class="left">En ese directorio, contendremos el repositorio y una carpeta con las diferentes versiones.</p>
+                        <p class="left">También usaremos enlaces simbólicos como "punteros" a las versiones contenidas en <code class="path">releases</code>.</p>
+                    </section>
+                    <section data-state="fabric">
+                        <pre><code data-trim>
+#                             # /opt/site
+# git repository              #   git/
+# will contain deploys        #   releases/
+# old release                 #     2015-05-15-12.33.44
+# latest relase               #     2015-05-16-21.10.54
+# points to current release   #   current
+# points to previous release  #   previous
+                        </code></pre>
+                    </section>
+                </section>
+
+                <section data-state="fabric">
+                    <h2>Esto está hecho</h2>
+                    <h3 class="fragment">En 20 lineas de código</h3>
+                </section>
+
+                <section data-state="fabric">
+                    <pre><code data-trim>
+@task
+def deploy():
+    now = datetime.datetime.now()
+    env.release = now.strftime('%Y-%m-%d-%H.%M.%S')
+
+    with cd("/opt/site"):
+        run("mkdir -p releases/%(release)s" % env)
+
+    with cd("/opt/site/git"):
+        run("git pull")
+        run("git archive master | tar -x -C /opt/site/releases/%(release)s" % env)
+
+    with cd("/opt/site"):
+        if files.exists("previous"): run("rm previous")
+        if files.exists("current"):
+            run("cp -P current previous")
+            run("ln -sfn releases/%(release)s current" % env)
+        else:
+            run("ln -s releases/%(release)s current" % env)
+                    </code></pre>
+                    <pre><code data-trim>
+@task
+def rollback():
+    with cd("/opt/site"):
+        run("rm current &amp;&amp; mv previous current")
+                    </code></pre>
+                </section>
 
 
-				<section data-state="vagrant">
-					<h1>Pero no es muy portable</h1>
-					<p>Y los detalles de configuración no son nada visibles.</p>
-				</section>
+            </div>
+        </div>
 
-				<section data-state="vagrant">
-					<h1>Vagrantfile</h1>
-				</section>
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
 
-			</div>
-		</div>
+        <script>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
 
-		<script>
+                theme: Reveal.getQueryHash().theme || 'solarized', // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+                // Parallax scrolling
+                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+                // parallaxBackgroundSize: '2100px 900px',
 
-				theme: Reveal.getQueryHash().theme || 'solarized', // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
 
-				// Parallax scrolling
-				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-				// parallaxBackgroundSize: '2100px 900px',
+        </script>
 
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
-
-		</script>
-
-	</body>
+    </body>
 </html>
