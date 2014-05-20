@@ -1,12 +1,13 @@
 .reveal section h1 {
   line-height: 1.3em;
+  margin-bottom: 0.5em;
 }
 .reveal section h2 {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   line-height: 1.3em;
 }
 .reveal section h3 {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   line-height: 1.3em;
 }
 .reveal section img.noborder {
@@ -14,8 +15,8 @@
   box-shadow: none;
   background: transparent;
 }
-.reveal section p.diagram-title {
-  font-size: 1.5em; 
+.reveal section .diagram-title {
+  font-size: 1.5em;
   margin: -85px 0 0;
 }
 
@@ -26,8 +27,8 @@
   height: 600px;
 }
 .reveal section ul {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .reveal dl {
   clear: both;
@@ -81,12 +82,30 @@
     margin-right: 15px;
     border-radius: 50px;
 }
+.reveal table tr {
+  vertical-align: middle;
+}
+.reveal table tr td {
+  vertical-align: middle;
+}
+.reveal table span.equal {
+  font-size: 3em;
+}
 
+.reveal img.author {
+  border-radius: 300px;
+}
+
+.reveal pre code {
+  max-height: 500px;
+}
+
+/*
 .intro .reveal .state-background {
-  background: rgb(49,49,49)
+  background: rgb(49,49,49);
 }
 .arch .reveal .state-background {
-  background: rgb(158, 216, 224)
+  background: #FFBFB3;
 }
 .git .reveal .state-background {
   background: #CE5B46;
@@ -104,16 +123,20 @@
 =======
 
 .intro   .reveal, .intro   .reveal h1, .intro   .reveal h2, .intro   .reveal h3 {
-  color: #21E421;
+  color: #fff;
 }
 
 /*
 .intro   .reveal, .intro   .reveal h1, .intro   .reveal h2, .intro   .reveal h3,
 .arch    .reveal, .arch    .reveal h1, .arch    .reveal h2, .arch    .reveal h3,
-*/
+
 .git     .reveal, .git     .reveal h1, .git     .reveal h2, .git     .reveal h3,
 .vagrant .reveal, .vagrant .reveal h1, .vagrant .reveal h2, .vagrant .reveal h3,
 .fabric  .reveal, .fabric  .reveal h1, .fabric  .reveal h2, .fabric  .reveal h3 {
   color: #fff;
 }
+<<<<<<< HEAD
 >>>>>>> b11bd98a2eb43bf4dd8a178f33697e4eb56bb8ee
+=======
+*/
+>>>>>>> 52da2b64587b58dbb4bbdd7eab0e80ba6b0feca5

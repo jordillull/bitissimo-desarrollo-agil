@@ -62,8 +62,14 @@ function linkify( selector ) {
                 </section>
                 -->
 
-                <section>
+                <section data-state="logo">
                     <h1>Herramientas de desarrollo ágil</h1>
+                </section>
+
+                <section>
+                  <img src="assets/img/we/lluis-small.jpg" class="author" height="300"/>
+                  <h2>Lluís Ballester</h2>
+                  <p>lballester@habitissimo.com</p>
                 </section>
 
                 <section data-state="intro">
@@ -158,27 +164,25 @@ function linkify( selector ) {
                   </ul>
                  </small>
                  </aside>
-                  <h1>¿Cómo se desarrollaba?</h1>
+                  <h2>¿Cómo se desarrollaba?</h2>
                   <h3>Desarrollos = "Agujeros Negros"</h3>
 
                   <table>
-                  <tr>
-                  <td>
+                  <tr valign="middle">
+                  <td valign="middle">
                     <p class="fragment">
                         <img src="assets/img/ticket_machine.jpg" height="300" class="noborder" />
                     </p>
                   </td>
-                  <td>
+                  <td valign="middle">
                     <p class="fragment">
                       <img src="assets/img/knights_crusades.jpg" height="300" class="noborder"/>
                     <p>
                   </td>
-                  <td>
-                    <p class="fragment">
-                       <font size="80">=</font>
-                    </p>
+                  <td valign="middle">
+                     <span class="fragment equal">=</span>
                   </td>
-                  <td>
+                  <td valign="middle">
                     <p class="fragment">
                       <img src="assets/img/tower_of_crap.jpg" height="300" class="noborder"/>
                     <p>
@@ -224,7 +228,7 @@ function linkify( selector ) {
                   </ul>
                 </section>
 
-                <section data-state="scrum">
+                <section data-state="intro">
                   <aside class="notes">
                   <small>
                   <ul>
@@ -267,7 +271,7 @@ function linkify( selector ) {
                   </h1>
                 </section>
 
-                <section data-state="scrum">
+                <section data-state="intro">
                   <aside class="notes">
                   <small>
                     <ul>
@@ -639,6 +643,12 @@ function linkify( selector ) {
                 </section>
 
 
+                <section>
+                  <img src="assets/img/we/bruce-small.jpg" class="author" height="300"/>
+                  <h2>Jordi Llull</h2>
+                  <p>jllull@habitissimo.com</p>
+                </section>
+
                 <section data-state="arch">
                     <h1>Arquitectura ágil</h1>
                     <aside class="notes">
@@ -652,11 +662,11 @@ function linkify( selector ) {
                 </section>
 
                 <section data-state="arch">
-                    <p class="diagram-title">MVC</p>
+                    <h3 class="diagram-title">MVC</h3>
                     <img src="assets/img/mvc.png" class="diagram"/>
 
                     <aside class="notes">
-                        <ul style="font-size: 0.8em">
+                        <ul style="font-size: 0.7em">
                             <li>MVC separa tres capas distintas</li>
                             <ul>
                                 <li>El usuario hace una petición que es recogida por el controlador.</li>
@@ -671,15 +681,13 @@ function linkify( selector ) {
                 </section>
 
                 <section data-state="arch">
-                    <p class="diagram-title">ORM</p>
-                    <img src="assets/img/orm.png" class="diagram"/>
+                    <h3 class="diagram-title">ORM</h3>
+                    <img src="assets/img/orm.png" class="diagram fragment"/>
                     <aside class="notes">
                         <ul style="font-size: 0.6em">
                             <li>Object-relational mapping: nos permite gestionar la base de dates con objetos del lenguaje de programación</li>
                             <ul>
-                                <li>Una tabla = una clase</li>
-                                <li>Atributos = columnas.</li>
-                                <li>Además métodos save(), get() etc.</li>
+                                <li>Una tabla = una clase. Atributos = columnas.  Además métodos save(), get() etc.</li>
                             </ul>
                             <li>Peligros</li>
                             <ul>
@@ -742,12 +750,14 @@ function linkify( selector ) {
                     <p class="diagram-title">Contrato de entrada y contrato de salida</p>
                     <img src="assets/img/service_contracts.png" class="diagram"/>
                     <aside class="notes">
+                        <div style="font-size:0.8em">
                         Todo servicio define dos contratos
                         <ul>
                             <li>Contrato de entrada: ¿Cómo se debe llamar al servicio? Para cada posible parámetro de entrada se define su tipo y una serie de restricciones. Esto se implementa con una función que devuelve si el parámetro es correcto o no. Si no es correcto se lanza una excepción.</li>
                             <li>Contrato de salida: ¿Qué va a devolver el servicio? Nunca debería fallar, si falla hay un bug en el código</li>
                             <li>Los contratos suponen una importante fuente de documentación. Es lo primero que se escribe. En base a los contratos todo el mundo puede empezar a desarrollar aunque no esté el servicio implementado todavía.</li>
                         </ul>
+                        </div>
                     </aside>
                 </section>
 
@@ -755,7 +765,7 @@ function linkify( selector ) {
                     <p class="diagram-title">Entidades</p>
                     <img src="assets/img/entities.png" class="diagram"/>
                     <aside class="notes">
-                        <ul style="font-size: 0.8em">
+                        <ul style="font-size: 0.7em">
                             <li>Una entidad es un objeto con un sentido <em>completo</em> para la aplicación y completamente abastraido de la implementación de la base de datos</li>
                             <li>Donde antes teníamos un profesor con dos datos y una foreign key para ir a buscar el resto de datos a otro objeto ahora tenemos una única entidad</li>
                             <li>En el ejemplo la entidad tiene sus atributos propios y el de persona.</li>
@@ -768,7 +778,7 @@ function linkify( selector ) {
                 <section data-state="arch">
                     <h1>Tests</h1>
                     <aside class="notes">
-                        <ul style="font-size: 0.8em">
+                        <ul>
                             <li>Al tener completamente desacoplados los servicios éstos pueden ser llamados desde cualquier otro sitio. Y de hecho así se hace.</li>
                        </ul>
                     </aside>
@@ -779,15 +789,14 @@ function linkify( selector ) {
                     <aside class="notes">
                         <ul style="font-size:0.6em">
                             <li>Los tests son pequeños programas que, al ejecutarse, hacen una serie de llamadas al servicio y esperan cierta respuesta después de una llamada.</li>
-                            <li>Por ejemplo, el test del servicio de CrearEstudiante llamará al servicio con un nombre, un apellido y un DNI y esperará que se devuelva una entidad con ese nombre, ese apellido y ese DNI</li>
-                            <li>Además también llamará al servicio incumpliendo el contrato de entrada esperando que se lance la excepción pertinente.</li>
-                            <li>El test de un servicio debe hacer las suficientes llamadas para que se ejecute el servicio de todos los modos posibles</li>
+                            <li>Ejemplo: crearEstudiante.</li>
+                            <li>Además también llama incumpliendo contrato de entrada. Espera excepción.</li>
+                            <li>El test debe hacer que se ejecute el servicio de todos los modos posibles. Code coverage.</li>
                             <li>Hace tres años, cuando empezaba a programar profesionalmente, quería modificar un trozo de código aberrante e inmantenible. Cuando pregunte a mi jefa de proyecto me dijo: si funciona no lo toques. No era su culpa, era una política instaurada en la empresa: la gente tenía miedo al código.</li>
-                            <li>Es fácil tener miedo cuando se trabaja en módulos complicados con mucha lógica.</li>
-                            <li>Si hay miedo al código no se refactoriza, no se mantiene adecuadamente y se va a acumulando la mierda hasta que te desborda.</li>
+                            <li>Es fácil tener miedo cuando se trabaja en módulos complicados con mucha lógica. Ese miedo hace que no se refactorice el código y se vaya acumulando mierda.</li>
                             <li>Los tests nos permiten quitarnos el miedo al código</li>
                             <ul>
-                                <li>Cualquier pequeño cambio necesario en cualquier módulo se vuelve trivial. Se escriben nuevos tests, se realiza el cambio, pasa los test, listo para producción.</li>
+                                <li>Hacer un cambio se vuelve trivial. Se escriben nuevos tests, se realiza el cambio, pasa los test, listo para producción.</li>
                                 <li>Arreglar un bug es trivial. Se escribe el test para que falle. Se programa. Pasa el test. Listo para producción.</li>
                                 <li>Permite saber cuando se rompió algo =&gt; bisect</li>
                                 <li>SOBRETODO: por muy borrachos que fuésemos al escribir el código sabemos que no vamos a romper nada al subir a producción</li>
@@ -808,8 +817,8 @@ function linkify( selector ) {
                     </ul>
                     <aside class="notes">
                         <ul style="font-size:0.8em">
-                            <li>Deuda técnica. No necesariamente mala, pero se paga y con intereses.</li>
                             <li>¿Somos realmente más agiles ahora?</li>
+                            <li>Deuda técnica. No necesariamente mala, pero se paga y con intereses.</li>
                             <li>Ágil != Rápido</li>
                         </ul>
                     </aside>
@@ -822,6 +831,11 @@ function linkify( selector ) {
                   </blockquote>
                 </section>
 
+                <section>
+                  <img src="assets/img/we/hugo-small.jpg" class="author" height="300"/>
+                  <h2>Hugo Chinchilla</h2>
+                  <p>hchinchilla@habitissimo.com<br/>@ganon</p>
+                </section>
 
                 <section data-state="logo">
                     <img src="assets/img/git-color.png" height="300" class="noborder" />
@@ -830,7 +844,7 @@ function linkify( selector ) {
                 <section data-state="git">
                     <h2>Sistema de control de<br/> versiones <span class="fragment">DISTRIBUIDO</span></h2>
                     <ul>
-                        <li class="fragment">Cada desarrollador tiene una copia completa del repositosio</li>
+                        <li class="fragment">Cada desarrollador tiene una copia completa del repositorio</li>
                         <li class="fragment">Puedes trabajar offline</li>
                         <li class="fragment">Ridiculamente rápido</li>
                         <li class="fragment">Sabe resolver conflictos mejor que tu</li>
@@ -847,18 +861,46 @@ function linkify( selector ) {
                     <iframe src="https://try.github.io/" width="100%" height="400"></iframe>
                 </section>
 
-                <section data-state="git">
-                    <h3>¿Que hace diferente a Git?</h3>
-                    <ul>
-                        <li class="fragment">Diferentes workflows para diferentes necesidades</li>
-                        <li class="fragment">Tener muchas ramas es "barato"</li>
-                        <li class="fragment"><code>git stash</code></li>
-                        <li class="fragment"><code>git bisect</code></li>
-                    </ul>
+                <section>
+                  <section data-state="git">
+                      <h3>¿Que hace diferente a Git?</h3>
+                      <ul>
+                          <li class="fragment">Diferentes workflows para diferentes necesidades</li>
+                          <li class="fragment">Tener muchas ramas es "barato"</li>
+                          <li class="fragment"><code>git stash</code></li>
+                          <li class="fragment"><code>git blame</code></li>
+                          <li class="fragment"><code>git bisect</code></li>
+                      </ul>
+                  </section>
+                  <section>
+                    <h3>git blame</h3>
+                    <pre><code data-trim>
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014) .reveal section img.noborder {
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014)   border: 0;
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014)   box-shadow: none;
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014)   background: transparent;
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014) }
+0000000 (Not Committed Yet          Tue May 20 10:02:35 2014) .reveal section .diagram-title {
+0000000 (Not Committed Yet          Tue May 20 10:02:35 2014)   font-size: 1.5em;
+09dc493 (jordillull                 Mon May 19 20:09:57 2014)   margin: -85px 0 0;
+09dc493 (jordillull                 Mon May 19 20:09:57 2014) }
+09dc493 (jordillull                 Mon May 19 20:09:57 2014)
+ede56c0 (Hugo Chinchilla Carbonell  Mon May 19 17:19:52 2014) .reveal section img.diagram {
+ede56c0 (Hugo Chinchilla Carbonell  Mon May 19 17:19:52 2014)   border-radius: 20px;
+ede56c0 (Hugo Chinchilla Carbonell  Mon May 19 17:19:52 2014)   background: #fff;
+ede56c0 (Hugo Chinchilla Carbonell  Mon May 19 17:19:52 2014)   padding: 20px;
+09dc493 (jordillull                 Mon May 19 20:09:57 2014)   height: 600px;
+ede56c0 (Hugo Chinchilla Carbonell  Mon May 19 17:19:52 2014) }
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014) .reveal section ul {
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014)   margin-top: 2em;
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014)   margin-bottom: 2em;
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014) }
+                    </code></pre>
+                  </section>
                 </section>
 
                 <section data-state="git">
-                    <h1>Usa git para<br/><small><strike>casi</strike></small><br/>todo</h1>
+                    <h1 style="line-height: 1em">Usa git para<br/><small><strike>casi</strike></small><br/>todo</h1>
 
                     <ul>
                         <li class="fragment">Documentación</li>
@@ -1016,12 +1058,12 @@ sudo service nginx restart
 
                 <section>
                     <section data-state="vagrant">
-                        <h3>Vagrant oculta los detalles que no necesitas conocer</h3>
+                        <h2>Vagrant oculta los detalles que no necesitas conocer</h2>
                         <pre><code data-trim contenteditable>
 $ vagrant up
                         </code></pre>
 
-                        <p>Cuando tienes un Vagrantfile, este es el único comando que necesitas saber</p>
+                        <p>este es el único comando que necesitas saber</p>
                     </section>
 
                     <section data-state="vagrant">
@@ -1180,6 +1222,67 @@ def rollback():
         run("rm current &amp;&amp; mv previous current")
                     </code></pre>
                 </section>
+
+                <section>
+                  <h1>¿Preguntas?</h1>
+                </section>
+
+                <section>
+                  <img src="assets/img/we/martin-small.jpg" class="author" height="300"/>
+                  <h2>Martín Caleau</h2>
+                  <p>mcaleau@habitissimo.com</p>
+                </section>
+
+                <section data-background="assets/img/habitissimo-home.png">
+                </section>
+
+                <section data-background="assets/img/habitissimo-landing.png">
+                </section>
+
+                <section data-background="assets/img/habitissimo-fotos.png">
+                </section>
+
+                <section>
+                  <h3>Habitissimo en números</h3>
+                  <ul>
+                    <li class="fragment">Creado desde Mallorca en el 2009 por dos ingenieros</li>
+                    <li class="fragment">Presente en <strong>8 países</strong>: España, Italia, Brasil, México, Argentina,</li>
+                    <li class="fragment">Chile, Colombia y Turquía</li>
+                    <li class="fragment"><strong>80 personas</strong> en el equipo</li>
+                    <li class="fragment"><strong>+1.000.000 de presupuestos</strong> gestionados</li>
+                    <li class="fragment"><strong>+270.000 profesionales</strong> registrados</li>
+                    <li class="fragment"><strong>+40.000 opiniones</strong></li>
+                    <li class="fragment"><strong>+600.000 fotos y proyectos</strong> subidos</li>
+                    <li class="fragment"><strong>+2.300.000 visitas mensuales</strong></li>
+                    <li class="fragment">Código fuente único para todos los países</li>
+                    <li class="fragment">Diseño web responsive (usando Bootstrap)</li>
+                    <li class="fragment">Aplicación móvil web para profesionales</li>
+                  </ul>
+                </section>
+
+                <section>
+                  <h2>Tecnologías</h2>
+                  <ul>
+                    <li class="fragment">Symfony: framework MVC en PHP</li>
+                    <li class="fragment">MariaDB (MySQL)</li>
+                    <li class="fragment">Nginx</li>
+                    <li class="fragment">Git & Github</li>
+                    <li class="fragment">MongoDB</li>
+                    <li class="fragment">Fabric: automatizamos subidas a todos los países.</li>
+                    <li class="fragment">Vagrant: entorno de desarrollo en local, réplica de producción</li>
+                    <li class="fragment">Salt: automatizamos el despliegue y mantenimiento de los servidores.</li>
+                    <li class="fragment">Amazon S3, Amazon Route53, Amazon EC2</li>
+                  </ul>
+                </section>
+
+                <section>
+                  <img src="assets/img/opensource-love.png" class="noborder"/>
+                </section>
+
+                <section>
+                  <h1>¿Preguntas?</h1>
+                </section>
+
 
 
             </div>
