@@ -14,8 +14,8 @@
   box-shadow: none;
   background: transparent;
 }
-.reveal section p.diagram-title {
-  font-size: 1.5em; 
+.reveal section .diagram-title {
+  font-size: 1.5em;
   margin: -85px 0 0;
 }
 
@@ -81,12 +81,23 @@
     margin-right: 15px;
     border-radius: 50px;
 }
+.reveal table tr {
+  vertical-align: middle;
+}
+.reveal table tr td {
+  vertical-align: middle;
+}
+.reveal table span.equal {
+  font-size: 3em;
+}
 
+
+/*
 .intro .reveal .state-background {
-  background: rgb(49,49,49)
+  background: rgb(49,49,49);
 }
 .arch .reveal .state-background {
-  background: rgb(158, 216, 224)
+  background: #FFBFB3;
 }
 .git .reveal .state-background {
   background: #CE5B46;
@@ -102,15 +113,16 @@
 }
 
 .intro   .reveal, .intro   .reveal h1, .intro   .reveal h2, .intro   .reveal h3 {
-  color: #21E421;
+  color: #fff;
 }
 
 /*
 .intro   .reveal, .intro   .reveal h1, .intro   .reveal h2, .intro   .reveal h3,
 .arch    .reveal, .arch    .reveal h1, .arch    .reveal h2, .arch    .reveal h3,
-*/
+
 .git     .reveal, .git     .reveal h1, .git     .reveal h2, .git     .reveal h3,
 .vagrant .reveal, .vagrant .reveal h1, .vagrant .reveal h2, .vagrant .reveal h3,
 .fabric  .reveal, .fabric  .reveal h1, .fabric  .reveal h2, .fabric  .reveal h3 {
   color: #fff;
 }
+*/

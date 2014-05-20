@@ -62,7 +62,7 @@ function linkify( selector ) {
                 </section>
                 -->
 
-                <section>
+                <section data-state="logo">
                     <h1>Herramientas de desarrollo ágil</h1>
                 </section>
 
@@ -158,27 +158,25 @@ function linkify( selector ) {
                   </ul>
 
                  </aside>
-                  <h1>¿Cómo se desarrollaba?</h1>
+                  <h2>¿Cómo se desarrollaba?</h2>
                   <h3>Desarrollos = "Agujeros Negros"</h3>
 
                   <table>
-                  <tr>
-                  <td>
+                  <tr valign="middle">
+                  <td valign="middle">
                     <p class="fragment">
                         <img src="assets/img/ticket_machine.jpg" height="300" class="noborder" />
                     </p>
                   </td>
-                  <td>
+                  <td valign="middle">
                     <p class="fragment">
                       <img src="assets/img/knights_crusades.jpg" height="300" class="noborder"/>
                     <p>
                   </td>
-                  <td>
-                    <p class="fragment">
-                       <font size="80">=</font>
-                    </p>
+                  <td valign="middle">
+                     <span class="fragment equal">=</span>
                   </td>
-                  <td>
+                  <td valign="middle">
                     <p class="fragment">
                       <img src="assets/img/tower_of_crap.jpg" height="300" class="noborder"/>
                     <p>
@@ -224,7 +222,7 @@ function linkify( selector ) {
                   </ul>
                 </section>
 
-                <section data-state="scrum">
+                <section data-state="intro">
                   <aside class="notes">
                   <ul>
                     <li>
@@ -258,7 +256,7 @@ function linkify( selector ) {
                     </p>
                 </section>
 
-                <section data-state="scrum">
+                <section data-state="intro">
                   <aside class="notes">
                     <ul>
                       <li >
@@ -327,7 +325,7 @@ function linkify( selector ) {
                 </section>
 
                 <section data-state="arch">
-                    <p class="diagram-title">MVC</p>
+                    <h3 class="diagram-title">MVC</h3>
                     <img src="assets/img/mvc.png" class="diagram"/>
 
                     <aside class="notes">
@@ -346,7 +344,7 @@ function linkify( selector ) {
                 </section>
 
                 <section data-state="arch">
-                    <p class="diagram-title">ORM</p>
+                    <h3 class="diagram-title">ORM</h3>
                     <img src="assets/img/orm.png" class="diagram"/>
                     <aside class="notes">
                         <ul style="font-size: 0.6em">
@@ -522,18 +520,46 @@ function linkify( selector ) {
                     <iframe src="https://try.github.io/" width="100%" height="400"></iframe>
                 </section>
 
-                <section data-state="git">
-                    <h3>¿Que hace diferente a Git?</h3>
-                    <ul>
-                        <li class="fragment">Diferentes workflows para diferentes necesidades</li>
-                        <li class="fragment">Tener muchas ramas es "barato"</li>
-                        <li class="fragment"><code>git stash</code></li>
-                        <li class="fragment"><code>git bisect</code></li>
-                    </ul>
+                <section>
+                  <section data-state="git">
+                      <h3>¿Que hace diferente a Git?</h3>
+                      <ul>
+                          <li class="fragment">Diferentes workflows para diferentes necesidades</li>
+                          <li class="fragment">Tener muchas ramas es "barato"</li>
+                          <li class="fragment"><code>git stash</code></li>
+                          <li class="fragment"><code>git blame</code></li>
+                          <li class="fragment"><code>git bisect</code></li>
+                      </ul>
+                  </section>
+                  <section>
+                    <h3>git blame</h3>
+                    <pre><code data-trim>
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014) .reveal section img.noborder {
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014)   border: 0;
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014)   box-shadow: none;
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014)   background: transparent;
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014) }
+0000000 (Not Committed Yet          Tue May 20 10:02:35 2014) .reveal section .diagram-title {
+0000000 (Not Committed Yet          Tue May 20 10:02:35 2014)   font-size: 1.5em;
+09dc493 (jordillull                 Mon May 19 20:09:57 2014)   margin: -85px 0 0;
+09dc493 (jordillull                 Mon May 19 20:09:57 2014) }
+09dc493 (jordillull                 Mon May 19 20:09:57 2014)
+ede56c0 (Hugo Chinchilla Carbonell  Mon May 19 17:19:52 2014) .reveal section img.diagram {
+ede56c0 (Hugo Chinchilla Carbonell  Mon May 19 17:19:52 2014)   border-radius: 20px;
+ede56c0 (Hugo Chinchilla Carbonell  Mon May 19 17:19:52 2014)   background: #fff;
+ede56c0 (Hugo Chinchilla Carbonell  Mon May 19 17:19:52 2014)   padding: 20px;
+09dc493 (jordillull                 Mon May 19 20:09:57 2014)   height: 600px;
+ede56c0 (Hugo Chinchilla Carbonell  Mon May 19 17:19:52 2014) }
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014) .reveal section ul {
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014)   margin-top: 2em;
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014)   margin-bottom: 2em;
+2813b1b (Hugo Chinchilla Carbonell  Mon May 19 09:32:10 2014) }
+                    </code></pre>
+                  </section>
                 </section>
 
                 <section data-state="git">
-                    <h1>Usa git para<br/><small><strike>casi</strike></small><br/>todo</h1>
+                    <h1 style="line-height: 1em">Usa git para<br/><small><strike>casi</strike></small><br/>todo</h1>
 
                     <ul>
                         <li class="fragment">Documentación</li>
@@ -691,12 +717,12 @@ sudo service nginx restart
 
                 <section>
                     <section data-state="vagrant">
-                        <h3>Vagrant oculta los detalles que no necesitas conocer</h3>
+                        <h2>Vagrant oculta los detalles que no necesitas conocer</h2>
                         <pre><code data-trim contenteditable>
 $ vagrant up
                         </code></pre>
 
-                        <p>Cuando tienes un Vagrantfile, este es el único comando que necesitas saber</p>
+                        <p>este es el único comando que necesitas saber</p>
                     </section>
 
                     <section data-state="vagrant">
