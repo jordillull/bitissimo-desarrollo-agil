@@ -100,6 +100,10 @@
   max-height: 500px;
 }
 
+.reveal ul.spaced li {
+  margin: 0.3em 0 0.3em;
+}
+
 /*
 .intro .reveal .state-background {
   background: rgb(49,49,49);

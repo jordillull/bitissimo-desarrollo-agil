@@ -62,6 +62,62 @@ function linkify( selector ) {
                 </section>
                 -->
 
+
+                <section data-state="logo">
+                  <img src="assets/img/logo.png" class="noborder"/>
+                </section>
+
+                <section>
+                  <img src="assets/img/we/martin-small.jpg" class="author" height="300"/>
+                  <h2>Martín Caleau</h2>
+                  <p>mcaleau@habitissimo.com</p>
+                </section>
+
+                <section data-background="assets/img/habitissimo-home.png">
+                </section>
+
+                <section data-background="assets/img/habitissimo-landing.png">
+                </section>
+
+                <section data-background="assets/img/habitissimo-fotos.png">
+                </section>
+
+                <section>
+                  <h3>Habitissimo en números</h3>
+                  <ul class="spaced">
+                    <li class="fragment">Creado desde Mallorca en el 2009 por dos ingenieros</li>
+                    <li class="fragment">Presente en <strong>8 países</strong>: España, Italia, Brasil, México, Argentina, Chile, Colombia y Turquía</li>
+                    <li class="fragment"><strong>80 personas</strong> en el equipo</li>
+                    <li class="fragment"><strong>+1.000.000 de presupuestos</strong> gestionados</li>
+                    <li class="fragment"><strong>+270.000 profesionales</strong> registrados</li>
+                    <li class="fragment"><strong>+40.000 opiniones</strong></li>
+                    <li class="fragment"><strong>+600.000 fotos y proyectos</strong> subidos</li>
+                    <li class="fragment"><strong>+2.300.000 visitas mensuales</strong></li>
+                    <li class="fragment">Código fuente único para todos los países</li>
+                    <li class="fragment">Diseño web responsive (usando Bootstrap)</li>
+                    <li class="fragment">Aplicación móvil web para profesionales</li>
+                  </ul>
+                </section>
+
+                <section>
+                  <h2>Tecnologías</h2>
+                  <ul class="spaced">
+                    <li class="fragment">Symfony: framework MVC en PHP</li>
+                    <li class="fragment">MariaDB (MySQL)</li>
+                    <li class="fragment">Nginx</li>
+                    <li class="fragment">Git & Github</li>
+                    <li class="fragment">MongoDB</li>
+                    <li class="fragment">Fabric: automatizamos subidas a todos los países.</li>
+                    <li class="fragment">Vagrant: entorno de desarrollo en local, réplica de producción</li>
+                    <li class="fragment">Salt: automatizamos el despliegue y mantenimiento de los servidores.</li>
+                    <li class="fragment">Amazon S3, Amazon Route53, Amazon EC2</li>
+                  </ul>
+                </section>
+
+                <section>
+                  <img src="assets/img/opensource-love.png" class="noborder"/>
+                </section>
+
                 <section data-state="logo">
                     <h1>Herramientas de desarrollo ágil</h1>
                 </section>
@@ -814,7 +870,7 @@ function linkify( selector ) {
                         <li class="fragment">16.800 líneas de código escritas</li>
                         <ul style="margin-top: 10px;">
                           <li class="fragment">11.500 líneas de lógica</li>
-                          <li class="fragment">5.300 líneas de test (45%)</li>
+                          <li class="fragment">5.300 líneas de test (~30%)</li>
                         </ul>
                     </ul>
                     <aside class="notes">
@@ -861,11 +917,12 @@ function linkify( selector ) {
                 <section data-state="git">
                     <h3>Puedes aprender lo básico en 15 minutos</h3>
                     <iframe src="https://try.github.io/" width="100%" height="400"></iframe>
+                    <p><a href="https://try.github.io">ir al tutorial</a></p>
                 </section>
 
                 <section>
                   <section data-state="git">
-                      <h3>¿Que hace diferente a Git?</h3>
+                      <h3>¿Qué hace diferente a Git?</h3>
                       <ul>
                           <li class="fragment">Diferentes workflows para diferentes necesidades</li>
                           <li class="fragment">Tener muchas ramas es "barato"</li>
@@ -958,8 +1015,8 @@ ede56c0 (Hugo Chinchilla Carbonell  Mon May 19 17:19:52 2014) }
                 </section>
 
                 <section data-state="vagrant">
-                    <h3>¿Que es?</h3>
-                    <p>Vagrant es una herramienta para automatizar la creacion y el uso de máquinas virtuales</p>
+                    <h3>¿Qué es?</h3>
+                    <p>Vagrant es una herramienta para automatizar la creación y el uso de máquinas virtuales</p>
                 </section>
 
                 <section data-state="vagrant">
@@ -1167,7 +1224,7 @@ Disconnecting from linuxbox... done.
                         <li class="fragment">Cualquier desarrollador tiene que ser capaz de usarlo</li>
                         <li class="fragment">Debe permitir revertir a la versión anterior si hay problemas</li>
                     </ul>
-                    <p class="fragment">¿Pare complicado?</p>
+                    <p class="fragment">¿Parece complicado?</p>
                 </section>
 
                 <section>
@@ -1230,63 +1287,34 @@ def rollback():
                 </section>
 
                 <section>
-                  <img src="assets/img/we/martin-small.jpg" class="author" height="300"/>
-                  <h2>Martín Caleau</h2>
-                  <p>mcaleau@habitissimo.com</p>
-                </section>
-
-                <section data-background="assets/img/habitissimo-home.png">
-                </section>
-
-                <section data-background="assets/img/habitissimo-landing.png">
-                </section>
-
-                <section data-background="assets/img/habitissimo-fotos.png">
+                  <video controls>
+                    <source src="assets/video/habitissimo.mp4" type="video/mp4"/>
+                  </video>
                 </section>
 
                 <section>
-                  <h3>Habitissimo en números</h3>
-                  <ul>
-                    <li class="fragment">Creado desde Mallorca en el 2009 por dos ingenieros</li>
-                    <li class="fragment">Presente en <strong>8 países</strong>: España, Italia, Brasil, México, Argentina,</li>
-                    <li class="fragment">Chile, Colombia y Turquía</li>
-                    <li class="fragment"><strong>80 personas</strong> en el equipo</li>
-                    <li class="fragment"><strong>+1.000.000 de presupuestos</strong> gestionados</li>
-                    <li class="fragment"><strong>+270.000 profesionales</strong> registrados</li>
-                    <li class="fragment"><strong>+40.000 opiniones</strong></li>
-                    <li class="fragment"><strong>+600.000 fotos y proyectos</strong> subidos</li>
-                    <li class="fragment"><strong>+2.300.000 visitas mensuales</strong></li>
-                    <li class="fragment">Código fuente único para todos los países</li>
-                    <li class="fragment">Diseño web responsive (usando Bootstrap)</li>
-                    <li class="fragment">Aplicación móvil web para profesionales</li>
+                  <h1>¿Qué ofrecemos?</h1>
+                  <ul class="spaced">
+                    <li class="fragment">Incorporarse a un equipo de trabajo formado por 7 técnicos multidisciplinares</li>
+                    <li class="fragment">Investigación y formación continua</li>
+                    <li class="fragment">Ambiente muy agradable para trabajar</li>
+                    <li class="fragment">Maquinotes (disco SSD, 16GB ram, 2 monitores, teclado mecánico)</li>
                   </ul>
                 </section>
 
                 <section>
-                  <h2>Tecnologías</h2>
-                  <ul>
-                    <li class="fragment">Symfony: framework MVC en PHP</li>
-                    <li class="fragment">MariaDB (MySQL)</li>
-                    <li class="fragment">Nginx</li>
-                    <li class="fragment">Git & Github</li>
-                    <li class="fragment">MongoDB</li>
-                    <li class="fragment">Fabric: automatizamos subidas a todos los países.</li>
-                    <li class="fragment">Vagrant: entorno de desarrollo en local, réplica de producción</li>
-                    <li class="fragment">Salt: automatizamos el despliegue y mantenimiento de los servidores.</li>
-                    <li class="fragment">Amazon S3, Amazon Route53, Amazon EC2</li>
+                  <h2>Habitissimo summer of code</h2>
+                  <ul class="spaced">
+                    <li class="fragment">Asistir al equipo de desarrollo creando herramientas de automatización</li>
+                    <li class="fragment">Generar una herramienta web para la exploración de servicios de la aplicación</li>
+                    <li class="fragment">Panel de control para la monitorización de envío de emails</li>
                   </ul>
                 </section>
 
                 <section>
-                  <img src="assets/img/opensource-love.png" class="noborder"/>
+                  <h3>Únete a nuestro equipo</h3>
+                  <img src="assets/img/msteam.png" class="noborder" height="500"/>
                 </section>
-
-                <section>
-                  <h1>¿Preguntas?</h1>
-                </section>
-
-
-
             </div>
         </div>
 
