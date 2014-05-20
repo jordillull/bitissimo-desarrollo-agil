@@ -208,7 +208,7 @@ function linkify( selector ) {
     			  <h1>Nos vimos obligados a cambiar.</h1>
                   <ul>
                     <li class="fragment">
-                        <i>'Ágil'</i>: capacidad de
+                        <b><i>Ágil</i></b>: capacidad de
                         reaccionar rápidamente ante situaciones de cambio.
                     </li>
                     <li class="fragment">
@@ -250,8 +250,8 @@ function linkify( selector ) {
                     </ul>
                   </aside>
     			  <h1>Metodologías tradicionales:</h1>
-                    <p class="fragment">
-                      Metodologías basadas en el SDLC.
+                  <p class="fragment">
+                      Metodologías basadas en el <b>SDLC</b>.
                     </p>
                     <p class="fragment">
                       <img src="assets/img/businessman.jpg" height="300" class="noborder"/>
@@ -285,7 +285,23 @@ function linkify( selector ) {
                       </li>
                       <li>
                         Equipos faraónicos para conseguir algo realmente
-                        modesto.
+                        modesto:
+                        <p>3 devels: 1 desarrollando, 1 traducciones, 1
+                        despliegues, 3 testers, 1 analista, 1 project
+                        manager, 2 técnicos de sistemas y 6 meses</p>
+                      </li>
+                      <li>
+                        Gran parte del software que se desarrolla no
+                        sale de grandes firmas con capital a raudales.
+                        No es comparable a otras ingenierías.
+                        <p>
+                          Normalmente una agencia de viajes no
+                          tiene los recursos para construir un puente,
+                          una carretera o para sintetizar 1 tonelada de
+                          ácido sulfúrico. Por la misma regla de tres no
+                          puede implementar correctamente procesos
+                          basados en la SDLC. (excepciones)
+                        </p>
                       </li>
                     </ul>
                     <ul>
@@ -312,6 +328,135 @@ function linkify( selector ) {
                   <h3 class="fragment">
                     Contexto y situación dentro de Habitissimo.
                   </h3>
+                </section>
+
+                <section data-state="scrum-explain">
+                  <aside class="notes">
+                    <ul>
+                      <li>
+                        Duración típica entre 2 y 4 semanas.
+                      </li>
+                      <li>
+                        Normalmente se citan 3 semanas.
+                      </li>
+                      <li>
+                        Flexible y adaptable a diferentes entornos y
+                        necesidades
+                      </li>
+                      <li>
+                        En un entorno dónde se desarrolla desde
+                        cero, pueden ser de hasta 4 semanas. (Más
+                        previsión, desarrollo más acotado y estable)
+                      </li>
+                      <li>
+                        En entornos que ya están en producción con
+                        'sorpresas continuas', fuegos a apagar, cambios
+                        y necesidades variables como el viento, entre
+                        dos y tres semanas suele ser más apropiado.
+                      </li>
+                    </ul>
+                  </aside>
+     			  <h1><b><i>Sprints</i></b></h1>
+                  <h3>Ciclos de desarrollo cortos</h3>
+                </section>
+
+                <section data-state="scrum-explain">
+                  <aside class="notes">
+                    <ul>
+                      <li>
+                        Los desarrollos a realizar en cada sprint se
+                        denominan 'stories'.
+                      </li>
+                      <li>
+                        Las historias, por lo general, deben de ser
+                        subibles al final de un sprint.
+                      </li>
+                      <li>
+                        Si una historia es demasiado grande, se acordará
+                        acotarla a una primera iteración con lo
+                        imprescindible. (Desarrollo incremental)
+                      </li>
+                      <li>
+                        Cada historia estará segmentada en sub-tareas
+                      </li>
+                      <li>
+                        Cada sub-tarea normalmente debe ser manejable y
+                        lo suficientemente específica.
+                      </li>
+                      <li>
+                        Separar por capas lógicas (ej: plantillas /
+                        presentación, lógica negocios, cambios
+                        modelo/DB) suele dar buenos resultados.
+                      </li>
+                    </ul>
+                  </aside>
+     			  <h1><b><i>Stories</i></b></h1>
+                  <h3>
+                    Como se estructura cada <b><i>sprint</i></b>
+                  </h3>
+                </section>
+
+                <section data-state="scrum-explain">
+                  <aside class="notes">
+                    <ul>
+                      <li>
+
+                      </li>
+                    </ul>
+                  </aside>
+     			  <h1>Ejemplo de historia</h1>
+                  <h3>Lanzamiento de nuevo país a producción</h3>
+                  <ul>
+                    <li>
+                      Cambios al modelo y DB para permitir
+                      'multisite': <b>1 día</b>
+                      <font color='#abba00'>[Jordi]</font>
+                    </li>
+                    <li>
+                      'Mapeos' de localidades y categorías:
+                      <b>2 días</b>
+                      <font color='#abba00'>[Jordi]</font>
+                    </li>
+                    <li>
+                      Cambiar 'tagging' + tareas:
+                      <b>1 día</b>
+                      <font color='#abba00'>[Lluís]</font>
+                    </li>
+                    <li>
+                      Parametrizar plantillas (img's, css's):
+                      <b>2 días</b>
+                      <font color='#abba00'>[Jaume]</font>
+                    </li>
+                    <li>
+                      Modificar listados + filtros:
+                      <b>1 día</b>
+                      <font color='#abba00'>[Jaume]</font>
+                    </li>
+                    <li>
+                      Nueva página de 'landing':
+                      <b>1 día</b>
+                      <font color='#abba00'>[Nino]</font>
+                    </li>
+                    <li>
+                      Modificación script de despliegue:
+                      <b> 2 horas </b>
+                      <font color="abba00">[Hugo]</font>
+                    </li>
+                  </ul>
+                </section>
+
+                <section data-state="intro">
+                  <aside class="notes">
+                    <ul>
+                      <li>
+                        Product owner: su responsabilidad es la de
+                        generar una lista de pr
+                      </li>
+                    </ul>
+                  </aside>
+     			  <h1>¿Quienes son los protagonistas?</h1>
+                  <h3 class="fragment"> Product owner </h3>
+                  <h3 class="fragment"> Scrum master </h3>
                 </section>
 
 				<section data-state="arch">
